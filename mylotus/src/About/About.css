@@ -259,7 +259,7 @@ color: black;
 {
     width: 100vw;
     height:80vh;
-    margin: 40px;
+    margin-left: -5vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -464,7 +464,7 @@ color: black;
 {
     width: 60vw;
     height:90vh;
-    margin: 10px;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -474,11 +474,12 @@ color: black;
 {
     width: 55vw;
     padding: 15px;
-    margin-left:-5vw;
+    margin-left:35vw;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row-reverse;
     align-items: center;
+
 }
 
 .v-content-ctn-rv
