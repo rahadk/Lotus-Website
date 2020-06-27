@@ -20,9 +20,9 @@ const Values = () => {
        <Link to='/'> <img className="nav-logo" src={image} alt="This is the Lotus logo"></img></Link>
       </div>
       <ul className="navbar-ctr">
-        <Link to="About"><li className="nav-itm grow"><a href="#"> About us </a></li></Link>
-        <Link to="Features"><li className="nav-itm grow"><a href="#"> Features </a></li></Link>
-        <Link to="Contact"><li className="nav-itm grow"><a href="#"> Contact </a></li></Link>
+        <Link to="About"><li className="nav-itm grow"> About us </li></Link>
+        <Link to="Features"><li className="nav-itm grow"> Features </li></Link>
+        <Link to="Contact"><li className="nav-itm grow"> Contact </li></Link>
         <li className="nav-btn grow br4 "><a href="https://mailchi.mp/587a0b5c40b7/lotus"> Sign up </a></li>
 
       </ul>
@@ -42,7 +42,7 @@ const Values = () => {
     <div className="v-flex-ctn space">
              <div className="v-content-ctn val-ma one">
                  <div className="va-icon grow">
-                     <img className="v-cp hide" src={img1}></img>
+                     <img className="v-cp hide" alt="img1" src={img1}></img>
                  </div>
                  <div className="v-info">
                      <h1 className="v-info-head">
@@ -51,9 +51,7 @@ const Values = () => {
                      <p className="v-info-text">
                      Share music with friends with the click of a button, even between streaming services    </p>
                    
-                     <div className="v-info-btn">
-                         <a href="#"></a>
-                     </div>
+                     
                  </div>
               
              </div>
@@ -69,7 +67,7 @@ const Values = () => {
          <div className="v-flex-ctn space">
              <div className="v-content-ctn-rv val-ma">
                  <div className="v-icon grow">
-                 <img className="v-cp img-2 hide" src={img2}></img>
+                 <img className="v-cp img-2 hide" alt="img1" src={img2}></img>
                  </div>
                  <div className="v-info">
                      <h1 className="v-info-head">
@@ -77,9 +75,7 @@ const Values = () => {
                      </h1>
                      <p className="v-info-text">
                      See what your friends are listening to and stay up to date on the hottest songs    </p>
-                     <div className="v-info-btn">
-                         <a href="#"></a>
-                     </div>
+                    
                  </div>
               
              </div>
@@ -91,7 +87,7 @@ const Values = () => {
          <div className="v-flex-ctn space">
              <div className="v-content-ctn val-ma one">
                  <div className="va-icon grow">
-                     <img className="v-cp hide" src={img3}></img>
+                     <img className="v-cp hide"  alt="img1" src={img3}></img>
                  </div>
                  <div className="v-info">
                      <h1 className="v-info-head">
@@ -100,9 +96,7 @@ const Values = () => {
                      <p className="v-info-text">
                      Stream music simultaneously in groups to stay connected during a workout or to let everyone be on aux.  </p>
                    
-                     <div className="v-info-btn">
-                         <a href="#"></a>
-                     </div>
+                     
                  </div>
               
              </div>
@@ -116,7 +110,7 @@ const Values = () => {
          <div className="v-flex-ctn space">
              <div className="v-content-ctn-rv val-ma one">
                  <div className="va-icon grow">
-                     <img className="v-cp hide" src={img4}></img>
+                     <img className="v-cp hide" alt="img1" src={img4}></img>
                  </div>
                  <div className="v-info">
                      <h1 className="v-info-head">
@@ -124,9 +118,7 @@ const Values = () => {
                      </h1>
                      <p className="v-info-text">
                      Create collaborative playlists with all of your friends. </p>               
-                     <div className="v-info-btn">
-                         <a href="#"></a>
-                     </div>
+                    
                  </div>
               
              </div>
@@ -138,7 +130,7 @@ const Values = () => {
          <div className="v-flex-ctn space">
              <div className="v-content-ctn val-ma one">
                  <div className="va-icon grow">
-                     <img className="v-cp hide" src={img5}></img>
+                     <img className="v-cp hide"  alt="img1" src={img5}></img>
                  </div>
                  <div className="v-info">
                      <h1 className="v-info-head">
@@ -146,9 +138,7 @@ const Values = () => {
                      </h1>
                      <p className="v-info-text">
                      Show off your music taste with a profile of all your favorite songs, artists, and playlists. </p>                   
-                     <div className="v-info-btn">
-                         <a href="#"></a>
-                     </div>
+                   
                  </div>
               
              </div>

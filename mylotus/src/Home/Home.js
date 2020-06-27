@@ -3,12 +3,11 @@ import './Home.css'
 import logo from "../images/Lotus.png"
 import image from '../images/LotusTitle.png'
 import { Link } from "react-router-dom";
-import About from '../About/About';
 
 function Home() {
     return(
         <div className="landing-page">
-
+            
     {/* Navigation Menu */}
 
     <nav className="navbar shadow-5">
@@ -16,14 +15,13 @@ function Home() {
        <Link to='/'> <img className="nav-logo" src={image} alt="This is the Lotus logo"></img></Link>
       </div>
       <ul className="navbar-ctr">
-        <Link to="About"><li className="nav-itm grow"><a href="#"> About us </a></li></Link>
-        <Link to="Features"><li className="nav-itm grow"><a href="#"> Features </a></li></Link>
-        <Link to="Contact"><li className="nav-itm grow"><a href="#"> Contact </a></li></Link>
+        <Link to="About"><li className="nav-itm grow"> About us </li></Link>
+        <Link to="Features"><li className="nav-itm grow"> Features </li></Link>
+        <Link to="Contact"><li className="nav-itm grow"> Contact </li></Link>
         <li className="nav-btn grow br4 "><a href="https://mailchi.mp/587a0b5c40b7/lotus"> Sign up </a></li>
 
       </ul>
     </nav>
-
         <div id="Home">
             <div className="h-logo-ctn">
                 <img className="h-logo" src={logo} alt="logo"></img>

@@ -39,6 +39,7 @@
     font-size: 2em;
 }
 
+
 .val-ma
 {
     margin-top: 100vh;
@@ -91,6 +92,7 @@
 {
     line-height: 2em;
 }
+
 
 
 @media only screen and (min-width: 320px) and (max-width: 479px){ 
@@ -199,6 +201,7 @@
     
     }
     
+  
     .v-board-ctn
     {
         margin-top: 5vh;
@@ -288,8 +291,8 @@
         font-size: 1em;
     }
     .v-container{
-        animation:zoomIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s; /* don't forget to set a duration! */
+        animation:zoomIn; 
+        animation-duration: 2s; 
         text-align: center;
     }
 

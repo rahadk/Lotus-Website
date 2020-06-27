@@ -14,9 +14,9 @@ const contact = () => {
        <Link to='/'> <img className="nav-logo" src={image} alt="This is the Lotus logo"></img></Link>
       </div>
       <ul className="navbar-ctr">
-        <Link to="About"><li className="nav-itm grow"><a href="#"> About us </a></li></Link>
-        <Link to="Features"><li className="nav-itm grow"><a href="#"> Features </a></li></Link>
-        <Link to="Contact"><li className="nav-itm grow"><a href="#"> Contact </a></li></Link>
+        <Link to="About"><li className="nav-itm grow"> About us </li></Link>
+        <Link to="Features"><li className="nav-itm grow"> Features </li></Link>
+        <Link to="Contact"><li className="nav-itm grow"> Contact </li></Link>
         <li className="nav-btn grow br4 "><a href="https://mailchi.mp/587a0b5c40b7/lotus"> Sign up </a></li>
 
       </ul>
@@ -25,7 +25,7 @@ const contact = () => {
             <div className="contact-ctn">
                 <h2 className="contact-head"> Want to learn more about Lotus?</h2>
                 <p  className="contact-text"> Feel free to send us a message! </p>
-                <img className="logo" src={img4}></img>
+                <img className="logo" alt="img1" src={img4}></img>
 
             </div>
 
@@ -51,8 +51,6 @@ const contact = () => {
             <button className="submit" type="submit">Send</button>
           </p>
         </form>
-
-
 
 
         </div>
