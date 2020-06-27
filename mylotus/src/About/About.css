@@ -1,16 +1,47 @@
 #About
 {
     width: 100vw;
-    height: 300vh;
+    height: 200vh;
     font-family: 'Raleway', sans-serif;
-    color: #1a1a1a;
-
+    background: url(../images/fullsizeoutput_1e73.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: whitesmoke;
 }
 
+#khan
+{
+    margin-top: 0vh;
+    margin-left: -18vw;
+}
+.a-logo-ctn
+{
+    display: flex;
+    justify-content: center;
+}
+
+.a-logo
+{
+    width: 20vw;
+    margin-top: 8vh;
+    margin-top: 10vh;
+    margin-left: -10vw;
+    animation:slideInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.v-title{
+    font-size:3em;
+    margin-left: -10vw;
+    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+}
 
 .values {
     width: 100vw;
-    margin-top: 10vh;
+    margin-left: 5vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -18,59 +49,30 @@
 }
 
 
-.background-a{
-    position: absolute;
-    z-index: -10;
-    width: 100vw;
-    height: 100vh;
-    top: 7vh;
-    background-color: var(--lotus-blue);
-}
-
-.v-flex-ctn
-{
-    width: 100vw;
-    height:80vh;
-    margin: 40px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
 .v-content-ctn
 {
     width: 70%;
-    padding: 10px;
-    margin-left: 8vw;
-    margin-top: 35vh;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row-reverse;
     align-items: center;
-    background-color: whitesmoke;
-}
-
-.v-content-ctn:hover{
-    transform: scale(1);
-    transition: ease-in;
-	animation: pulse 2s infinite;
-}
-
-.v-content-ctn-rv:hover{
-    transform: scale(1);
-    transition: ease-in;
-    animation: pulse 2s infinite;
+    color: whitesmoke;
+    padding: 15px;
+    margin-top: -5vh;
+    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
 }
 
 .v-content-ctn-rv
 {
     width: 70%;
-    padding: 10px;
+    margin-left: -16vw;
+    padding: 15px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
-    margin-top: 35vh;
+    color: whitesmoke;
    
 }
 
@@ -92,6 +94,7 @@
     display: flex;
 }
 
+
 .v-reach-ctn
 {
     width: 100vw;
@@ -101,7 +104,7 @@
 }
 
 .v-btn{
-color: black;
+color: whitesmoke;
 }
 
 .v-updated-btn
@@ -126,6 +129,9 @@ color: black;
     width: 14vw;
 }
 
+.v-title{
+    margin-top: -5vh;
+}
 @media only screen and (max-width: 320px)
 {
 
@@ -514,7 +520,7 @@ color: black;
 }
 
 .v-btn{
-color: black;
+color: whitesmoke;
 }
 
 .v-updated-btn
@@ -762,6 +768,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
     .v-reach-ctn
     {
         margin-top: 5vh;
+        color: whitesmoke;
     }
 
 

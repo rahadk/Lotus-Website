@@ -7,7 +7,6 @@
     align-items: center;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    color: #1a1a1a;
 }
 
 .logo
@@ -20,7 +19,7 @@
 
 
 .bkgrnd{
-    background-color: var(--lotus-light-purple);
+  background-color: var(--lotus-light-purple);
     height: 70vh;
     width:40vw;
     display: flex;
@@ -57,6 +56,7 @@ textarea
     font-family: 'Raleway', sans-serif;
     animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 3s; /* don't forget to set a duration! */
+    color: whitesmoke;
 }
 
 .submit

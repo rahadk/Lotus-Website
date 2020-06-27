@@ -21,7 +21,11 @@ html {
   overflow: scroll;
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
-
+  background: url(./images/fullsizeoutput_1e73.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 ::-webkit-scrollbar {
   width: 0px;  /* Remove scrollbar space */
@@ -38,7 +42,8 @@ html {
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: var(--lotus-purple);
+  background: rgb(47,95,181);
+background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
 }
 
 .nav-btn

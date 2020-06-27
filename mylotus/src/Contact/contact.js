@@ -15,9 +15,7 @@ const contact = () => {
       </div>
       <ul className="navbar-ctr">
         <Link to="About"><li className="nav-itm grow"> About us </li></Link>
-        <Link to="Features"><li className="nav-itm grow"> Features </li></Link>
         <Link to="Contact"><li className="nav-itm grow"> Contact </li></Link>
-        <li className="nav-btn grow br4 "><a href="https://mailchi.mp/587a0b5c40b7/lotus"> Sign up </a></li>
 
       </ul>
     </nav>

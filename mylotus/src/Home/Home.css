@@ -1,6 +1,10 @@
  .landing-page
  {
-    background-color: var(--lotus-purple);
+    background: url(../images/fullsizeoutput_1e73.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     color: white;
@@ -19,7 +23,7 @@
 .h-btn-ctn
 {
     border: 2px solid white;
-    width:25vw;
+    width:15vw;
     text-align: center;
     padding:5px;
     margin-top: 4vh;
@@ -129,6 +133,7 @@
     animation-delay: 3s;
     opacity: 0;
     animation-fill-mode: forwards;
+    width: 100vw;
 }
 
 .h-btn-ctn
@@ -142,7 +147,7 @@
 
 .everything
 {
-    color: green;
+    color: var(--lotus-light-purple);
 }
 
   @keyframes float {
@@ -292,6 +297,7 @@ and (max-device-width : 321px) {
         {
             width: 30vw;
             padding:0;
+            list-style-type: none;
             
         }
     
@@ -327,6 +333,7 @@ and (max-device-width : 321px) {
         margin-top: 4vh;
         border-radius: 50px;
         transition:.5s;
+        list-style-type: none;
     }
     
     .h-btn-ctn:hover
@@ -413,6 +420,7 @@ and (max-device-width : 321px) {
         animation-delay: 3s;
         opacity: 0;
         animation-fill-mode: forwards;
+        width: 100vw;
     }
     
     .h-btn-ctn
@@ -422,13 +430,10 @@ and (max-device-width : 321px) {
         animation-delay: 3.5s;
         opacity: 0;
         animation-fill-mode: forwards;
+        list-style-type: none;
     }
     
-    .everything
-    {
-        color: green;
-    }
-    
+
 }
 
  
@@ -439,12 +444,17 @@ and (min-width: 1151px)
 
     #Home 
     {
-        position: fixed;
-        top: 8vh;
-        left: 15vw;
-        width: 50vw;
+        margin-top: 25vh;
+        width: 100vw;
         height: 50vh;
         line-height: 4.5vh;
+    }
+
+    .h-ctn
+    {
+        width: 80vw;
+        margin-left: 22vh;
+        margin-top: -5vh;
     }
     
     .h-btn-ctn
@@ -456,6 +466,7 @@ and (min-width: 1151px)
         margin-top: 4vh;
         border-radius: 50px;
         transition:.5s;
+        list-style-type: none;
     }
     
     .h-btn-ctn:hover
@@ -466,7 +477,9 @@ and (min-width: 1151px)
     
     .h-logo
     {
-        width:10vw;
+        width:30vw;
+        margin-top: -19vh;
+        margin-left: 5vw;
         animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
         animation-duration: 2s;
         animation-delay: .5s;
@@ -474,25 +487,7 @@ and (min-width: 1151px)
         animation-fill-mode: forwards;
     }
     
-    .h-tooltip{
-        position: fixed;
-        top: 89vh;
-        left: 45vw;
-        background-color: rgba(0,0,0,0.3);
-        width:20vw;
-        height: 40px;
-        text-align: center;
-        border-radius: 50px;
-        transform: translatey(0px);
-        animation: float 2s infinite; 
-        transition: ease-in-out;
-    }
-    
-    .h-tooltip-txt
-    {
-        margin-top: 1px;
-    }
-    
+  
     .h-logo-ctn
     {
         margin-left: -2.5vw;
@@ -516,6 +511,7 @@ and (min-width: 1151px)
         animation-delay: 1s;
         opacity: 0;
         animation-fill-mode: forwards;
+        font-size: 4em;
     }
     
     .h-sub-txt
@@ -543,11 +539,11 @@ and (min-width: 1151px)
         animation-delay: 3.5s;
         opacity: 0;
         animation-fill-mode: forwards;
+        width: 15vw;
+        text-align: center;
+        list-style-type: none;
     }
     
-    .everything
-    {
-        color: green;
-    }
+
 }
 

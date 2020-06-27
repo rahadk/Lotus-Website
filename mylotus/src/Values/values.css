@@ -47,22 +47,6 @@
 }
 
 
-@keyframes pulse {
-	0% {
-		transform: scale(0.95);
-		
-	}
-
-	70% {
-		transform: scale(1);
-
-	}
-
-	100% {
-		transform: scale(0.95);
-
-	}
-}
 
 
 .va-reach
@@ -189,7 +173,6 @@
         width: 100vw;
         height: 300vh;
         font-family: 'Raleway', sans-serif;
-        color: #1a1a1a;
     }
     
     .v-title-ctn{
@@ -228,23 +211,8 @@
     }
     
     
-    @keyframes pulse {
-        0% {
-            transform: scale(0.95);
-            
-        }
-    
-        70% {
-            transform: scale(1);
-    
-        }
-    
-        100% {
-            transform: scale(0.95);
-    
-        }
-    }
-    
+  
+
     
     .va-reach
     {

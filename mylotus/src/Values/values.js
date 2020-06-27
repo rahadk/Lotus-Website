@@ -3,7 +3,7 @@ import './values.css'
 import { Link } from "react-router-dom";
 import image from '../images/LotusTitle.png';
 import img1 from '../images/stream.png'
-import img2 from '../images/phone.png';
+import img2 from '../images/peer.png';
 import img3 from '../images/listen.png';
 import img4 from '../images/collaborative.png';
 import img5 from '../images/playlists.png';
@@ -14,16 +14,13 @@ import img5 from '../images/playlists.png';
 const Values = () => {
     return(
         <div id="Values">
-            <div className="background"></div>
             <nav className="navbar shadow-5">
       <div className="nav-logo-ctr">
        <Link to='/'> <img className="nav-logo" src={image} alt="This is the Lotus logo"></img></Link>
       </div>
       <ul className="navbar-ctr">
         <Link to="About"><li className="nav-itm grow"> About us </li></Link>
-        <Link to="Features"><li className="nav-itm grow"> Features </li></Link>
         <Link to="Contact"><li className="nav-itm grow"> Contact </li></Link>
-        <li className="nav-btn grow br4 "><a href="https://mailchi.mp/587a0b5c40b7/lotus"> Sign up </a></li>
 
       </ul>
     </nav>
@@ -146,18 +143,7 @@ const Values = () => {
          </div>
 
 
-         <div className="v-reach-ctn va-reach">
-            <h2 className="v-reach-head">
-                Do you like what you saw? 
-            </h2>
-            <p> Click the button below to stay updated!</p>
-           <div className="v-updated-btn">
-           <a className="v-btn" href="https://mailchi.mp/587a0b5c40b7/lotus">
-               Stay updated
-               </a>
-            </div> 
-        </div>
-
+     
 
 
 
