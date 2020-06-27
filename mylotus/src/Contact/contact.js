@@ -29,14 +29,10 @@ const contact = () => {
 
             </div>
 
-            <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-  <input type="text" name="name" />
-  <input type="email" name="email" />
-  <textarea name="message"></textarea>
-</form>
+     
 
 
-    <form name="contact" method="POST">
+    <form name="contact"  data-netlify="true" method="POST">
             <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>Your Name: <input type="text" placeholder="Your name goes here..." name="name" required /></label>
