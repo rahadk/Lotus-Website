@@ -1,0 +1,556 @@
+ .landing-page
+ {
+    background-color: var(--lotus-purple);
+    width: 100vw;
+    height: 100vh;
+    color: white;
+ }
+ 
+ #Home 
+{
+    top: 15vh;
+    left: 15vw;
+    width: 50vw;
+    height: 50vh;
+    line-height: 4.5vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.h-btn-ctn
+{
+    border: 2px solid white;
+    width:25vw;
+    text-align: center;
+    padding:5px;
+    margin-top: 4vh;
+    border-radius: 50px;
+    transition:.5s;
+}
+
+.h-btn-ctn:hover
+{
+    background-color: white;
+}
+
+
+.h-logo
+{
+    width:10vw;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    animation-delay: .5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.h-tooltip{
+    position: fixed;
+    top: 90vh;
+    left: 50vw;
+    background-color: rgba(0,0,0,0.3);
+    width:10vw;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    transform: translatey(0px);
+    animation: float 2s infinite; 
+    transition: ease-in-out;
+}
+
+.h-tooltip-txt
+{
+    margin-top: 1px;
+}
+
+.h-logo-ctn
+{
+    margin-left: -2.5vw;
+}
+
+.h-iphone-img
+{
+    width: 100vw;
+}
+.iphone
+{
+    position: fixed;
+    width: 20.2vw;
+    height: 55vh;
+    top: 20.7vh;
+    left: 130.4vh;
+}
+
+.h-iphone-img
+{
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    position: fixed;
+    top: 5vh;
+    left: 0vw;
+}
+
+
+.image
+{
+    position: fixed;
+    width: 13vw;
+    height: 51vh;
+    top: 22vh;
+    left: 137vh;
+}
+
+.h-sub-sub-txt
+{
+    font-size: 17px;
+}
+
+.h-header-txt
+{
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.h-sub-txt
+{
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.h-sub-sub-txt
+{
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.h-btn-ctn
+{
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.everything
+{
+    color: green;
+}
+
+  @keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 321px) {
+
+    #Home 
+    {
+        position: fixed;
+        top: 10vh;
+        left: 15vw;
+        width: 80vw;
+        height: 50vh;
+        line-height: 3vh;
+    }
+    
+        .h-logo
+        {
+            display: none;
+        }
+        .h-sub-sub-txt
+        {
+            font-size: 12px;
+        }
+    
+        .h-btn-ctn
+        {
+            display: none;
+        }
+    
+        .h-tooltip
+        {
+           display:none;
+        }
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 375px){ 
+
+    #Home 
+{
+    position: fixed;
+    top: 10vh;
+    left: 15vw;
+    width: 80vw;
+    height: 50vh;
+    line-height: 4.5vh;
+}
+
+    .h-logo
+    {
+        width: 15vw;
+    }
+    .h-sub-sub-txt
+    {
+        font-size: 14px;
+    }
+
+    .h-btn-ctn
+    {
+        display: none;
+    }
+
+    .h-tooltip
+    {
+        width: 40vw;
+        left: 30vw;
+        top: 90vh;
+    }
+ }
+
+@media only screen and (min-width: 375px) and (max-width: 767px){ 
+
+
+    #Home 
+{
+    position: fixed;
+    top: 17vh;
+    left: 15vw;
+    width: 80vw;
+    height: 50vh;
+    line-height: 4vh;
+}
+
+    .h-logo
+    {
+        display: none;
+    }
+    .h-sub-sub-txt
+    {
+        font-size: 14px;
+    }
+
+    .h-btn-ctn
+    {
+        display: none;
+    }
+
+    .h-tooltip
+    {
+        width: 40vw;
+        left: 30vw;
+        top: 82vh;
+    }
+    
+ }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){ 
+
+    #Home 
+    {
+        position: fixed;
+        top: 7vh;
+        left: 15vw;
+        width: 80vw;
+        height: 50vh;
+        line-height: 4vh;
+    }
+    
+        .h-logo
+        {
+            width:15vw;
+        }
+        .h-sub-sub-txt
+        {
+            font-size: 18px;
+        }
+    
+        .h-btn-ctn
+        {
+            width: 30vw;
+            padding:0;
+            
+        }
+    
+        .h-tooltip
+        {
+            width: 40vw;
+            left: 30vw;
+            top: 65vh;
+        }
+        
+    
+ }
+
+
+ @media only screen 
+ and (min-width: 1024px) and (max-width: 1100px)
+  {
+    #Home 
+    {
+        top: 8vh;
+        left: 15vw;
+        width: 50vw;
+        height: 50vh;
+        line-height: 4.5vh;
+    }
+    
+    .h-btn-ctn
+    {
+        border: 2px solid white;
+        width:30vw;
+        text-align: center;
+        padding:2px;
+        margin-top: 4vh;
+        border-radius: 50px;
+        transition:.5s;
+    }
+    
+    .h-btn-ctn:hover
+    {
+        background-color: white;
+    }
+    
+    
+    .h-logo
+    {
+        width:10vw;
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: .5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .h-tooltip{
+        position: fixed;
+        top: 89vh;
+        left: 45vw;
+        background-color: rgba(0,0,0,0.3);
+        width:20vw;
+        height: 40px;
+        text-align: center;
+        border-radius: 50px;
+        transform: translatey(0px);
+        animation: float 2s infinite; 
+        transition: ease-in-out;
+    }
+    
+    .h-tooltip-txt
+    {
+        margin-top: 1px;
+    }
+    
+    .h-logo-ctn
+    {
+        margin-left: -2.5vw;
+    }
+    
+    .h-iphone-img
+    {
+        width: 100vw;
+    }
+   
+    .h-iphone-img
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        position: fixed;
+        top: 5vh;
+        left: 0vw;
+    }
+    
+    
+  
+    
+    .h-sub-sub-txt
+    {
+        font-size: 17px;
+    }
+    
+    .h-header-txt
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 1s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .h-sub-txt
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 2s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .h-sub-sub-txt
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 3s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .h-btn-ctn
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 3.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .everything
+    {
+        color: green;
+    }
+    
+}
+
+ 
+@media only screen 
+and (min-width: 1151px) 
+{
+
+
+    #Home 
+    {
+        position: fixed;
+        top: 8vh;
+        left: 15vw;
+        width: 50vw;
+        height: 50vh;
+        line-height: 4.5vh;
+    }
+    
+    .h-btn-ctn
+    {
+        border: 2px solid white;
+        width:30vw;
+        text-align: center;
+        padding:2px;
+        margin-top: 4vh;
+        border-radius: 50px;
+        transition:.5s;
+    }
+    
+    .h-btn-ctn:hover
+    {
+        background-color: white;
+    }
+    
+    
+    .h-logo
+    {
+        width:10vw;
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: .5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .h-tooltip{
+        position: fixed;
+        top: 89vh;
+        left: 45vw;
+        background-color: rgba(0,0,0,0.3);
+        width:20vw;
+        height: 40px;
+        text-align: center;
+        border-radius: 50px;
+        transform: translatey(0px);
+        animation: float 2s infinite; 
+        transition: ease-in-out;
+    }
+    
+    .h-tooltip-txt
+    {
+        margin-top: 1px;
+    }
+    
+    .h-logo-ctn
+    {
+        margin-left: -2.5vw;
+    }
+    
+
+    
+  .image{
+      width: 20vw;
+  }
+    
+    .h-sub-sub-txt
+    {
+        font-size: 17px;
+    }
+    
+    .h-header-txt
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 1s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .h-sub-txt
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 2s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .h-sub-sub-txt
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 3s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .h-btn-ctn
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 3.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .everything
+    {
+        color: green;
+    }
+}
+
