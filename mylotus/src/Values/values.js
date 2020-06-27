@@ -85,7 +85,7 @@ const Values = () => {
 
 
          <div className="v-flex-ctn space">
-             <div className="v-content-ctn val-ma one">
+             <div id="val-ma" className="v-content-ctn val-ma one">
                  <div className="va-icon grow">
                      <img className="v-cp hide"  alt="img1" src={img3}></img>
                  </div>
@@ -128,9 +128,9 @@ const Values = () => {
 
 
          <div className="v-flex-ctn space">
-             <div className="v-content-ctn val-ma one">
+             <div className="v-content-ctn val-ma one" id="val-ma">
                  <div className="va-icon grow">
-                     <img className="v-cp hide"  alt="img1" src={img5}></img>
+                     <img className="v-cp hide"  alt="img1"src={img5}></img>
                  </div>
                  <div className="v-info">
                      <h1 className="v-info-head">

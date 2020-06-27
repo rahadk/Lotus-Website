@@ -98,7 +98,6 @@ and (max-device-width : 321px) {
 {
   width: 40vw;
   margin-top: 1vh;
-  margin-left: 28vw;
 }
 }
 
@@ -107,7 +106,7 @@ and (max-device-width : 321px) {
 
   .nav-itm
 {
- display: none;
+ font-size: 10px;
 }
 
 .nav-btn
@@ -130,7 +129,7 @@ and (max-device-width : 321px) {
 
 .nav-logo
 {
-  width: 40vw;
+  width: 15vw;
   margin-top: 1vh;
 }
 
@@ -172,10 +171,6 @@ and (max-device-width : 321px) {
    }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){ 
-  .nav-itm
-{
- display: none;
-}
 
 .nav-btn
 {
@@ -230,3 +225,6 @@ and (max-device-width : 321px) {
   }
   
  }
+
+
+

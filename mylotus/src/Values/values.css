@@ -280,6 +280,14 @@
   and (min-width: 1024px) 
   and (max-height: 1366px) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    #Values {
+        width: 100vw;
+        height: 350vh;
+        font-family: 'Raleway', sans-serif;
+        color: #1a1a1a;
+    }
+
     .v-title-text
     {
         font-size: 1.5em;
@@ -295,6 +303,7 @@
         animation-duration: 2s; 
         text-align: center;
     }
+
 
     
 

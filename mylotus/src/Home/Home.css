@@ -172,7 +172,7 @@ and (max-device-width : 321px) {
         left: 15vw;
         width: 80vw;
         height: 50vh;
-        line-height: 3vh;
+        line-height: 3.5vh;
     }
     
         .h-logo
@@ -241,7 +241,7 @@ and (max-device-width : 321px) {
     left: 15vw;
     width: 80vw;
     height: 50vh;
-    line-height: 4vh;
+    line-height: 3.5vh;
 }
 
     .h-logo
@@ -315,7 +315,7 @@ and (max-device-width : 321px) {
         left: 15vw;
         width: 50vw;
         height: 50vh;
-        line-height: 4.5vh;
+        line-height: 2vh;
     }
     
     .h-btn-ctn
@@ -359,10 +359,7 @@ and (max-device-width : 321px) {
         transition: ease-in-out;
     }
     
-    .h-tooltip-txt
-    {
-        margin-top: 1px;
-    }
+   
     
     .h-logo-ctn
     {

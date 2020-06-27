@@ -8,7 +8,7 @@ import img3 from '../images/name.png';
 import img4 from '../images/process.png';
 import img5 from '../images/ben.png';
 import img6 from '../images/rahad.png';
-
+import Home from '../Home/Home';
 
 
 const About = () => {
@@ -53,7 +53,9 @@ return(
                      <p className="v-info-text">
                      A Vision: A world united through music.                     </p>
                    
-                    
+                     <div className="v-info-btn">
+                         <a href="#"></a>
+                     </div>
                  </div>
               
              </div>
@@ -76,7 +78,9 @@ return(
                      Furthermore, with the streaming market being segmented between Apple Music, Spotify, and a list of the streaming services, users can only interact with other users of the same service such as listening to a playlist created on only one service. And thus Lotus was born. Lotus is a social networking platform focused on sharing music that addresses their problems and many more.
                      </p>
                     
-                    
+                     <div className="v-info-btn">
+                         <a href="#"></a>
+                     </div>
                  </div>
               
              </div>
@@ -104,7 +108,9 @@ return(
                      </p>
                      <p className="v-info-text">
                      4. Despite only growing in the mud, the lotus flower blooms into something beautiful, representing how we will continue to grow despite any challenges come our way                     </p>
-                    
+                     <div className="v-info-btn">
+                         <a href="#"></a>
+                     </div>
                  </div>
               
              </div>
@@ -123,7 +129,9 @@ return(
                      <p className="v-info-text">
                      After starting in January 2019, we have been able to validate our idea and begin developing the Beta version of the app. We continue to work day in and day out and hope to be on the market by the end of summer 2020. If there was ever a time where the world needed to be connected virtually through music, it's now.                     </p>
                    
-                    
+                     <div className="v-info-btn">
+                         <a href="#"></a>
+                     </div>
                  </div>
               
              </div>
@@ -146,7 +154,9 @@ return(
                      Ben is a pre-med student at Johns Hopkins University who hopes to pursue a career as a doctor one day. Mostly focusing on science courses during his time in school, he found his love for business during his freshman year in college when he decided to pick up an entrepreneurship minor and started taking business classes.                     </p>
                      <p className="v-info-text">
                      He started Lotus with high school football teammate and long time friend Rahad in order to share his love of music with all of his friends. His music interests include everything from house music and rap to rock and roll. In his free time, Ben enjoys playing the guitar, reading, and playing football with his friends.                     </p>
-                    
+                     <div className="v-info-btn">
+                         <a href="#"></a>
+                     </div>
                  </div>
               
              </div>
@@ -170,7 +180,9 @@ return(
                      <p className="v-info-text">
                      In the following years, Rahad would dream of starting a business of his own. He started this journey earlier than expected as a senior in high school when he joined his long time friend Ben to start Lotus.                     </p>
                   
-                    
+                     <div className="v-info-btn">
+                         <a href="#"></a>
+                     </div>
                  </div>
               
              </div>
