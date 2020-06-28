@@ -29,9 +29,6 @@ function Home() {
             <h1 className="h-header-txt"> <i>Experience </i><i> Everything</i></h1>
             <h2 className="h-sub-txt">To live is to experience. Today, we get to have two lives: one in the real world and one in the virtual world. In this virtual world, we can share everything about ourselves, and we think this should include music. </h2>
             <p className="h-sub-sub-txt"> Music isn’t just what we listen to, it's who we are. <br/> Lotus is a social networking platform that lets you  share. </p>
-            <div className="h-btn-ctn grow ">
-            <Link to="Contact"><li> Stay up to date </li></Link>
-            </div>
             </div>
         </div>
         <Features/>

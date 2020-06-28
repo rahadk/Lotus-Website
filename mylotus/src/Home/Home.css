@@ -1,373 +1,175 @@
- .landing-page
- {
-    background: url(../images/fullsizeoutput_1e73.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    color: white;
- }
- 
- #Home 
-{
-    top: 15vh;
-    left: 15vw;
-    width: 50vw;
-    height: 50vh;
-    line-height: 4.5vh;
-    font-family: 'Raleway', sans-serif;
-}
+@media only screen and (min-width: 320px) and (max-width: 400px){ 
 
-.h-btn-ctn
+.landing-page 
 {
-    border: 2px solid white;
-    width:15vw;
     text-align: center;
-    padding:5px;
-    margin-top: 4vh;
-    border-radius: 50px;
-    transition:.5s;
-}
-
-.h-btn-ctn:hover
-{
-    background-color: white;
-}
-
-
-.h-logo
-{
-    width:10vw;
-    animation: slideInDown;
-    animation-duration: 2s;
-    animation-delay: .5s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-}
-
-
-
-
-.h-sub-sub-txt
-{
-    font-size: 17px;
+    color: white;
 }
 
 .h-header-txt
 {
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
-    animation-delay: 1s;
-    opacity: 0;
-    animation-fill-mode: forwards;
+    font-size: 20px;
 }
 
 .h-sub-txt
 {
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
-    animation-delay: 2s;
-    opacity: 0;
-    animation-fill-mode: forwards;
+    font-size: 17px;
 }
 
 .h-sub-sub-txt
 {
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
-    animation-delay: 3s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    width: 100vw;
+    font-size: 16px;
 }
 
 .h-btn-ctn
 {
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
-    animation-delay: 3.5s;
-    opacity: 0;
-    animation-fill-mode: forwards;
     list-style-type: none;
 }
 
-.everything
+.h-logo-ctn
 {
-    color: var(--lotus-light-purple);
+    margin-top: 9.5vh;
 }
 
-  @keyframes float {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-	50% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-20px);
-	}
-	100% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-}
+ }
+
+@media only screen and (min-width: 400px) and (max-width: 767px){ 
 
 
-
-
-@media only screen and (min-width: 320px) and (max-width: 374px){ 
-
-    .h-ctn{
-        font-size:0.7em;
-        width:100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .h-sub-txt
+    .landing-page 
     {
-        font-size: 1.5em;
-        padding: 10px;
         text-align: center;
+        color: white;
     }
-
-    .h-sub-sub-txt
-    {
-        font-size: 1.2em;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .h-btn-ctn
-{
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
-    animation-delay: 3.5s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    width: 20vh;
-    margin-top: 20px;
-}
-
-}
-@media only screen and (min-width: 375px) and (max-width: 767px){ 
-
-    .h-ctn{
-        font-size:0.7em;
-        width:100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .h-sub-txt
-    {
-        font-size: 1.5em;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .h-sub-sub-txt
-    {
-        font-size: 1.2em;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .h-btn-ctn
-{
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
-    animation-delay: 3.5s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-    width: 20vh;
-    margin-top: 20px;
-}
     
+    .h-header-txt
+    {
+        font-size: 28px;
+        padding: 10px;
+    }
+    
+    .h-sub-txt
+    {
+        font-size: 20px;
+    }
+    
+    .h-sub-sub-txt
+    {
+        font-size: 18px;
+        
+    }
+    
+    .h-btn-ctn
+    {
+        list-style-type: none;
+    }
+    
+    .h-logo-ctn
+    {
+        margin-top: 5vh;
+    }
+
+
+
+
  }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){ 
 
-    #Home 
+
+    .landing-page 
     {
-       width: 100vw;
-       height: 100vh;
-       padding: 10px;
-       margin-top: 10vh;
-        line-height: 4.5vh;
-        font-family: 'Raleway', sans-serif;
-    }
-    
-    .h-btn-ctn
-    {
-        border: 2px solid white;
-        width:23vw;
         text-align: center;
-        padding:2px;
-        margin-top: 4vh;
-        border-radius: 50px;
-        transition:.5s;
-    }
-    
-    .h-btn-ctn:hover
-    {
-        background-color: white;
-    }
-    
-    
-    .h-logo
-    {
-        width:20vw;
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: .5s;
-        opacity: 0;
-        animation-fill-mode: forwards;
-    }
-    
-    
-    
-    
-    .h-sub-sub-txt
-    {
-        font-size: 17px;
+        color: white;
     }
     
     .h-header-txt
     {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 1s;
-        opacity: 0;
-        animation-fill-mode: forwards;
+        font-size: 28px;
+        padding: 10px;
     }
     
     .h-sub-txt
     {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 2s;
-        opacity: 0;
-        animation-fill-mode: forwards;
+        font-size: 20px;
     }
     
     .h-sub-sub-txt
     {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 3s;
-        opacity: 0;
-        animation-fill-mode: forwards;
-        width: 100vw;
+        font-size: 18px;
+        
+    }
+
+    .h-ctn{
+        margin-top: -9vh;
     }
     
     .h-btn-ctn
     {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 3.5s;
-        opacity: 0;
-        animation-fill-mode: forwards;
         list-style-type: none;
     }
     
+
+
+
+
+
+
  }
 
 @media only screen and (min-width: 992px){ 
 
-    #Home 
+    .landing-page 
     {
-       width: 90vw;
-       height: 100vh;
-       padding: 20px;
-       margin-top: 10vh;
-        line-height: 4.5vh;
-        font-family: 'Raleway', sans-serif;
-    }
-
-    .h-ctn{
-        margin-left: 10vw;
-    }
-    
-    .h-btn-ctn
-    {
-        border: 2px solid white;
-        width:23vw;
         text-align: center;
-        padding:2px;
-        margin-top: 4vh;
-        border-radius: 50px;
-        transition:.5s;
-    }
-    
-    .h-btn-ctn:hover
-    {
-        background-color: white;
-    }
-    
-    
-    .h-logo
-    {
-        width:20vw;
-        animation: fadeInLeft; 
-        animation-duration: 2s;
-        animation-delay: .5s;
-        opacity: 0;
-        margin-left: 5vw;
-        animation-fill-mode: forwards;
-    }
-    
-    
-    
-    
-    .h-sub-sub-txt
-    {
-        font-size: 17px;
+        color: white;
     }
     
     .h-header-txt
     {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 1s;
-        opacity: 0;
-        animation-fill-mode: forwards;
+        font-size: 34px;
+        padding: 10px;
     }
     
     .h-sub-txt
     {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 2s;
-        opacity: 0;
-        animation-fill-mode: forwards;
-        margin-left: 0vw;
+        font-size: 25px;
     }
     
     .h-sub-sub-txt
     {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 3s;
-        opacity: 0;
-        animation-fill-mode: forwards;
-        width: 100vw;
+        font-size: 20px;
+        
+    }
+
+    .h-logo-ctn
+    {
+        margin-top: -13vh;
+        animation:backInLeft; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+    }
+    .h-ctn{
+        margin-top: -9vh;
+        animation:backInRight; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
     }
     
     .h-btn-ctn
     {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 3.5s;
-        opacity: 0;
-        animation-fill-mode: forwards;
         list-style-type: none;
+        margin-top: -13vh;
     }
+    
+    #Home
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 31vh;
+        padding: 10px;
+    }
+
+
+
+
+
  }
