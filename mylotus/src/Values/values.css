@@ -260,6 +260,8 @@
     .f-section-header-sub-txt
     {
         color: var(--lotus-green);
+        padding: 10px;
+        font-size: 1.5em;
     }
 
     .f-ctn
@@ -274,6 +276,7 @@
         flex-direction: column;
         align-items: center;
         width: 100vw;
+        margin-top: 10vh;
     }
 
     .feature
