@@ -32,8 +32,6 @@ return(
     
     {/* About Renderings */}
     
-
-<div className="a-content">
     <div className="a-logo-ctn">
     <img className="a-logo" src={logo} alt="Lotus flower logo"></img>
     </div>
@@ -160,7 +158,6 @@ return(
            
 
          </div>
-     </div>
 
 
 
