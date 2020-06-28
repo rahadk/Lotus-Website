@@ -7,7 +7,7 @@ import Features from '../Values/values';
 
 function Home() {
     return(
-        <div className="landing-page">
+        <div className="landing-page"> 
             
     {/* Navigation Menu */}
 

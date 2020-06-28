@@ -13,7 +13,7 @@ import img5 from '../images/playlists.png';
 
 const Values = () => {
     return(
-        <div id="Values">
+        <div id="Features">
             <nav className="navbar shadow-5">
       <div className="nav-logo-ctr">
        <Link to='/'> <img className="nav-logo" src={image} alt="This is the Lotus logo"></img></Link>
@@ -24,7 +24,7 @@ const Values = () => {
 
       </ul>
     </nav>
-    <div className="v-container">
+    <div className="features-main-container">
         <div className="v-title-ctn one">
         <h1> Features</h1>
         <p className="v-title-text"> It's not just another app. It's an <i> experience</i> </p>
@@ -36,15 +36,15 @@ const Values = () => {
     </div>
 
 <div className="ctn">
-             <div className="va-content-ctn ">
+             <div className="features-content-ctn ">
                  <div className="va-icon grow">
-                     <img className="v-cp hide" alt="img1" src={img1}></img>
+                     <img className="features-image hide" alt="img1" src={img1}></img>
                  </div>
-                 <div className="v-info">
-                     <h1 className="v-info-head">
+                 <div className="features-info">
+                     <h1 className="features-header">
                      Cross-Platform music sharing
                      </h1>
-                     <p className="v-info-text">
+                     <p className="features-info-text">
                      Share music with friends with the click of a button, even between streaming services    </p>
                    
                      
@@ -61,15 +61,15 @@ const Values = () => {
 
 
     
-             <div className="va-content-ctn-rv ">
+             <div className="features-content-ctn-rv ">
                  <div className="v-icon grow">
-                 <img id="img-2" className="v-cp hide" alt="img1" src={img2}></img>
+                 <img id="img-2" className="features-image hide" alt="img1" src={img2}></img>
                  </div>
-                 <div className="v-info">
-                     <h1 className="v-info-head">
+                 <div className="features-info">
+                     <h1 className="features-header">
                      Peer-to-peer Music Discovery
                      </h1>
-                     <p className="v-info-text">
+                     <p className="features-info-text">
                      See what your friends are listening to and stay up to date on the hottest songs    </p>
                     
                  </div>
@@ -80,15 +80,15 @@ const Values = () => {
 
 
     
-             <div  className="va-content-ctn">
+             <div  className="features-content-ctn">
                  <div className="va-icon grow">
-                     <img className="v-cp hide"  alt="img1" src={img3}></img>
+                     <img className="features-image hide"  alt="img1" src={img3}></img>
                  </div>
-                 <div className="v-info">
-                     <h1 className="v-info-head">
+                 <div className="features-info">
+                     <h1 className="features-header">
                      Listen Together
                      </h1>
-                     <p className="v-info-text">
+                     <p className="features-info-text">
                      Stream music simultaneously in groups to stay connected during a workout or to let everyone be on aux.  </p>
                    
                      
@@ -101,15 +101,15 @@ const Values = () => {
 
 
     
-             <div className="va-content-ctn-rv ">
+             <div className="features-content-ctn-rv ">
                  <div className="va-icon grow">
-                     <img className="v-cp hide" alt="img1" src={img4}></img>
+                     <img className="features-image hide" alt="img1" src={img4}></img>
                  </div>
-                 <div className="v-info">
-                     <h1 className="v-info-head">
+                 <div className="features-info">
+                     <h1 className="features-header">
                      Collaborative Playlists
                      </h1>
-                     <p className="v-info-text">
+                     <p className="features-info-text">
                      Create collaborative playlists with all of your friends. </p>               
                     
                  </div>
@@ -119,15 +119,15 @@ const Values = () => {
 
 
     
-             <div className="va-content-ctn" >
+             <div className="features-content-ctn" >
                  <div className="va-icon grow">
-                     <img className="v-cp hide"  alt="img1"src={img5}></img>
+                     <img className="features-image hide"  alt="img1"src={img5}></img>
                  </div>
-                 <div className="v-info">
-                     <h1 className="v-info-head">
+                 <div className="features-info">
+                     <h1 className="features-header">
                      Show the world your interests
                      </h1>
-                     <p className="v-info-text">
+                     <p className="features-info-text">
                      Show off your music taste with a profile of all your favorite songs, artists, and playlists. </p>                   
                    
                  </div>

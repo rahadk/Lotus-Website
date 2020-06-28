@@ -40,7 +40,7 @@
 .h-logo
 {
     width:10vw;
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation: slideInDown;
     animation-duration: 2s;
     animation-delay: .5s;
     opacity: 0;
@@ -316,7 +316,7 @@
     .h-logo
     {
         width:20vw;
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation: fadeInLeft; 
         animation-duration: 2s;
         animation-delay: .5s;
         opacity: 0;
