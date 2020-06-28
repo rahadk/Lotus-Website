@@ -38,7 +38,7 @@ return(
                  </div>
                  <div className="v-info">
                      <h1 className="v-info-head">
-                         The Mission
+                         Our Mission
                      </h1>
                      <p className="v-info-text">
                      To create a platform where users can discover, experience, and share all of their favorite music from a wide range of services in one location.                     </p>
@@ -57,7 +57,7 @@ return(
                  </div>
                  <div className="v-info">
                      <h1 className="v-info-head">
-                     The Vision
+                     Our Vision
                      </h1>
                      <p className="v-info-text">
                      A Vision: A world united through music.                     </p>

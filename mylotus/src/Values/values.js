@@ -26,7 +26,7 @@ const Values = () => {
     </nav>
     <div className="v-container">
         <div className="v-title-ctn one">
-        <h1 className="v-title"> Features</h1>
+        <h1> Features</h1>
         <p className="v-title-text"> It's not just another app. It's an <i> experience</i> </p>
         </div>
 
@@ -35,9 +35,8 @@ const Values = () => {
         </div>
     </div>
 
-
-    <div className="v-flex-ctn space">
-             <div className="v-content-ctn val-ma one">
+<div className="ctn">
+             <div className="v-content-ctn ">
                  <div className="va-icon grow">
                      <img className="v-cp hide" alt="img1" src={img1}></img>
                  </div>
@@ -49,7 +48,7 @@ const Values = () => {
                      Share music with friends with the click of a button, even between streaming services    </p>
                    
                      
-                 </div>
+          
               
              </div>
 
@@ -61,8 +60,8 @@ const Values = () => {
 
 
 
-         <div className="v-flex-ctn space">
-             <div className="v-content-ctn-rv val-ma">
+    
+             <div className="v-content-ctn-rv ">
                  <div className="v-icon grow">
                  <img className="v-cp img-2 hide" alt="img1" src={img2}></img>
                  </div>
@@ -74,15 +73,14 @@ const Values = () => {
                      See what your friends are listening to and stay up to date on the hottest songs    </p>
                     
                  </div>
-              
-             </div>
+
 
          </div>
 
 
 
-         <div className="v-flex-ctn space">
-             <div id="val-ma" className="v-content-ctn val-ma one">
+    
+             <div  className="v-content-ctn">
                  <div className="va-icon grow">
                      <img className="v-cp hide"  alt="img1" src={img3}></img>
                  </div>
@@ -95,8 +93,6 @@ const Values = () => {
                    
                      
                  </div>
-              
-             </div>
 
          </div>
 
@@ -104,8 +100,8 @@ const Values = () => {
 
 
 
-         <div className="v-flex-ctn space">
-             <div className="v-content-ctn-rv val-ma one">
+    
+             <div className="v-content-ctn-rv ">
                  <div className="va-icon grow">
                      <img className="v-cp hide" alt="img1" src={img4}></img>
                  </div>
@@ -117,15 +113,13 @@ const Values = () => {
                      Create collaborative playlists with all of your friends. </p>               
                     
                  </div>
-              
-             </div>
 
          </div>
 
 
 
-         <div className="v-flex-ctn space">
-             <div className="v-content-ctn val-ma one" id="val-ma">
+    
+             <div className="v-content-ctn" >
                  <div className="va-icon grow">
                      <img className="v-cp hide"  alt="img1"src={img5}></img>
                  </div>
@@ -138,13 +132,13 @@ const Values = () => {
                    
                  </div>
               
-             </div>
+
 
          </div>
 
 
      
-
+         </div>
 
 
         </div>

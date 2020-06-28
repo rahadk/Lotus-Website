@@ -47,61 +47,8 @@
     animation-fill-mode: forwards;
 }
 
-.h-tooltip{
-    position: fixed;
-    top: 90vh;
-    left: 50vw;
-    background-color: rgba(0,0,0,0.3);
-    width:10vw;
-    height: 40px;
-    text-align: center;
-    border-radius: 50px;
-    transform: translatey(0px);
-    animation: float 2s infinite; 
-    transition: ease-in-out;
-}
-
-.h-tooltip-txt
-{
-    margin-top: 1px;
-}
-
-.h-logo-ctn
-{
-    margin-left: -2.5vw;
-}
-
-.h-iphone-img
-{
-    width: 100vw;
-}
-.iphone
-{
-    position: fixed;
-    width: 20.2vw;
-    height: 55vh;
-    top: 20.7vh;
-    left: 130.4vh;
-}
-
-.h-iphone-img
-{
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
-    position: fixed;
-    top: 5vh;
-    left: 0vw;
-}
 
 
-.image
-{
-    position: fixed;
-    width: 13vw;
-    height: 51vh;
-    top: 22vh;
-    left: 137vh;
-}
 
 .h-sub-sub-txt
 {
@@ -143,6 +90,7 @@
     animation-delay: 3.5s;
     opacity: 0;
     animation-fill-mode: forwards;
+    list-style-type: none;
 }
 
 .everything
@@ -166,307 +114,106 @@
 }
 
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 321px) {
 
-    #Home 
-    {
-        position: fixed;
-        top: 10vh;
-        left: 15vw;
-        width: 80vw;
-        height: 50vh;
-        line-height: 3.5vh;
+
+@media only screen and (min-width: 320px) and (max-width: 374px){ 
+
+    .h-ctn{
+        font-size:0.7em;
+        width:100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    
-        .h-logo
-        {
-            display: none;
-        }
-        .h-sub-sub-txt
-        {
-            font-size: 12px;
-        }
-    
-        .h-btn-ctn
-        {
-            display: none;
-        }
-    
-        .h-tooltip
-        {
-           display:none;
-        }
 
-}
-
-
-@media only screen and (min-width: 320px) and (max-width: 375px){ 
-
-    #Home 
-{
-    position: fixed;
-    top: 10vh;
-    left: 15vw;
-    width: 80vw;
-    height: 50vh;
-    line-height: 4.5vh;
-}
-
-    .h-logo
+    .h-sub-txt
     {
-        width: 15vw;
+        font-size: 1.5em;
+        padding: 10px;
+        text-align: center;
     }
+
     .h-sub-sub-txt
     {
-        font-size: 14px;
+        font-size: 1.2em;
+        text-align: center;
+        padding: 10px;
     }
 
     .h-btn-ctn
-    {
-        display: none;
-    }
+{
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    width: 20vh;
+    margin-top: 20px;
+}
 
-    .h-tooltip
-    {
-        width: 40vw;
-        left: 30vw;
-        top: 90vh;
-    }
- }
-
+}
 @media only screen and (min-width: 375px) and (max-width: 767px){ 
 
-
-    #Home 
-{
-    position: fixed;
-    top: 17vh;
-    left: 15vw;
-    width: 80vw;
-    height: 50vh;
-    line-height: 3.5vh;
-}
-
-    .h-logo
-    {
-        display: none;
-    }
-    .h-sub-sub-txt
-    {
-        font-size: 14px;
+    .h-ctn{
+        font-size:0.7em;
+        width:100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .h-btn-ctn
-    {
-        display: none;
-    }
-
-    .h-tooltip
-    {
-        width: 40vw;
-        left: 30vw;
-        top: 82vh;
-    }
-    
- }
-
-@media only screen and (min-width: 768px) and (max-width: 1024px){ 
-
-    #Home 
-    {
-        position: fixed;
-        top: 7vh;
-        left: 15vw;
-        width: 80vw;
-        height: 50vh;
-        line-height: 4vh;
-    }
-    
-        .h-logo
-        {
-            width:15vw;
-        }
-        .h-sub-sub-txt
-        {
-            font-size: 18px;
-        }
-    
-        .h-btn-ctn
-        {
-            width: 30vw;
-            padding:0;
-            list-style-type: none;
-            
-        }
-    
-        .h-tooltip
-        {
-            width: 40vw;
-            left: 30vw;
-            top: 65vh;
-        }
-        
-    
- }
-
-
- @media only screen 
- and (min-width: 1024px) and (max-width: 1100px)
-  {
-    #Home 
-    {
-        top: 8vh;
-        left: 15vw;
-        width: 50vw;
-        height: 50vh;
-        line-height: 2vh;
-    }
-    
-    .h-btn-ctn
-    {
-        border: 2px solid white;
-        width:30vw;
-        text-align: center;
-        padding:2px;
-        margin-top: 4vh;
-        border-radius: 50px;
-        transition:.5s;
-        list-style-type: none;
-    }
-    
-    .h-btn-ctn:hover
-    {
-        background-color: white;
-    }
-    
-    
-    .h-logo
-    {
-        width:10vw;
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: .5s;
-        opacity: 0;
-        animation-fill-mode: forwards;
-    }
-    
-    .h-tooltip{
-        position: fixed;
-        top: 89vh;
-        left: 45vw;
-        background-color: rgba(0,0,0,0.3);
-        width:20vw;
-        height: 40px;
-        text-align: center;
-        border-radius: 50px;
-        transform: translatey(0px);
-        animation: float 2s infinite; 
-        transition: ease-in-out;
-    }
-    
-   
-    
-    .h-logo-ctn
-    {
-        margin-left: -2.5vw;
-    }
-    
-    .h-iphone-img
-    {
-        width: 100vw;
-    }
-   
-    .h-iphone-img
-    {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        position: fixed;
-        top: 5vh;
-        left: 0vw;
-    }
-    
-    
-  
-    
-    .h-sub-sub-txt
-    {
-        font-size: 17px;
-    }
-    
-    .h-header-txt
-    {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 1s;
-        opacity: 0;
-        animation-fill-mode: forwards;
-    }
-    
     .h-sub-txt
     {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 2s;
-        opacity: 0;
-        animation-fill-mode: forwards;
+        font-size: 1.5em;
+        padding: 10px;
+        text-align: center;
     }
-    
+
     .h-sub-sub-txt
     {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 3s;
-        opacity: 0;
-        animation-fill-mode: forwards;
-        width: 100vw;
+        font-size: 1.2em;
+        text-align: center;
+        padding: 10px;
     }
-    
+
     .h-btn-ctn
-    {
-        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        animation-delay: 3.5s;
-        opacity: 0;
-        animation-fill-mode: forwards;
-        list-style-type: none;
-    }
-    
-
-}
-
- 
-@media only screen 
-and (min-width: 1151px) 
 {
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    width: 20vh;
+    margin-top: 20px;
+}
+    
+ }
 
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
 
     #Home 
     {
-        margin-top: 25vh;
-        width: 100vw;
-        height: 50vh;
+       width: 100vw;
+       height: 100vh;
+       padding: 10px;
+       margin-top: 10vh;
         line-height: 4.5vh;
-    }
-
-    .h-ctn
-    {
-        width: 80vw;
-        margin-left: 22vh;
-        margin-top: -5vh;
+        font-family: 'Raleway', sans-serif;
     }
     
     .h-btn-ctn
     {
         border: 2px solid white;
-        width:30vw;
+        width:23vw;
         text-align: center;
         padding:2px;
         margin-top: 4vh;
         border-radius: 50px;
         transition:.5s;
-        list-style-type: none;
     }
     
     .h-btn-ctn:hover
@@ -477,9 +224,7 @@ and (min-width: 1151px)
     
     .h-logo
     {
-        width:30vw;
-        margin-top: -19vh;
-        margin-left: 5vw;
+        width:20vw;
         animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
         animation-duration: 2s;
         animation-delay: .5s;
@@ -487,17 +232,8 @@ and (min-width: 1151px)
         animation-fill-mode: forwards;
     }
     
-  
-    .h-logo-ctn
-    {
-        margin-left: -2.5vw;
-    }
     
-
     
-  .image{
-      width: 20vw;
-  }
     
     .h-sub-sub-txt
     {
@@ -511,7 +247,6 @@ and (min-width: 1151px)
         animation-delay: 1s;
         opacity: 0;
         animation-fill-mode: forwards;
-        font-size: 4em;
     }
     
     .h-sub-txt
@@ -530,6 +265,7 @@ and (min-width: 1151px)
         animation-delay: 3s;
         opacity: 0;
         animation-fill-mode: forwards;
+        width: 100vw;
     }
     
     .h-btn-ctn
@@ -539,11 +275,93 @@ and (min-width: 1151px)
         animation-delay: 3.5s;
         opacity: 0;
         animation-fill-mode: forwards;
-        width: 15vw;
-        text-align: center;
         list-style-type: none;
     }
     
+ }
 
-}
+@media only screen and (min-width: 992px){ 
 
+    #Home 
+    {
+       width: 90vw;
+       height: 100vh;
+       padding: 20px;
+       margin-top: 10vh;
+        line-height: 4.5vh;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .h-btn-ctn
+    {
+        border: 2px solid white;
+        width:23vw;
+        text-align: center;
+        padding:2px;
+        margin-top: 4vh;
+        border-radius: 50px;
+        transition:.5s;
+    }
+    
+    .h-btn-ctn:hover
+    {
+        background-color: white;
+    }
+    
+    
+    .h-logo
+    {
+        width:20vw;
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: .5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    
+    
+    
+    .h-sub-sub-txt
+    {
+        font-size: 17px;
+    }
+    
+    .h-header-txt
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 1s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .h-sub-txt
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 2s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+    }
+    
+    .h-sub-sub-txt
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 3s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+        width: 100vw;
+    }
+    
+    .h-btn-ctn
+    {
+        animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        animation-delay: 3.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+        list-style-type: none;
+    }
+ }

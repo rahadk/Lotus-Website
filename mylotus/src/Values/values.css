@@ -1,6 +1,6 @@
 #Values {
     width: 100vw;
-    height: 300vh;
+    height: 320vh;
     font-family: 'Raleway', sans-serif;
     color: #1a1a1a;
 }
@@ -11,12 +11,48 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .v-info-head
 {
     color: var(--lotus-green);
+}
+
+
+.ctn
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-left: 20vw;
+    margin-top: 10vh;
+}
+
+.v-content-ctn
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: whitesmoke;
+    padding: 15px;
+    margin-top: -45vh;
+    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+}
+
+.v-content-ctn-rv
+{
+    width: 70%;
+    margin-left: -86vw;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    color: whitesmoke;
+   
 }
 
 .v-board-ctn
@@ -31,6 +67,11 @@
     color: white;
     animation:zoomIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
 }
 .vb-title
 {
@@ -39,37 +80,18 @@
     font-size: 2em;
 }
 
-
-.val-ma
-{
-    margin-top: 100vh;
-
-}
-
-
-
-
 .va-reach
 {
     margin-top: 80vh;
 }
 
-.background{
-    position: absolute;
-    z-index: -10;
-    width: 100vw;
-    height: 100vh;
-    top: 7vh;
-    background-color: var(--lotus-light-purple);
-}
-
 .v-title{
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .v-title-text
 {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .vb-title
@@ -77,102 +99,115 @@
     line-height: 2em;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 374px){ 
 
-
-@media only screen and (min-width: 320px) and (max-width: 479px){ 
-    .v-title-text
-    {
-        font-size: 1.5em;
+    #Values {
+        margin-top: 45vh;
+        width: 100vw;
+        height: 200vh;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #1a1a1a;
     }
     
     .vb-title
     {
         line-height: 2em;
+        margin-left: -1vw;
         font-size: 1em;
-    }
-    .v-container{
-        animation:zoomIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s; /* don't forget to set a duration! */
         text-align: center;
     }
 
-    .hide
-    {
-        display:none;
-    }
-    .val-ma
-    {
-        margin-top: 0vh;
-        width: 80vw;
-    
-    }
-    .v-flex-ctn
-    {
-        margin: 0;
-        margin-top: -22vh;
-    }
-
-    .va-reach
+    .v-title-text
 {
-    margin-top: 0vh;
+    font-size: 0.8em;
+}
+
+.v-info-head
+{
+    font-size: 0.8em;
+    width: 100vw;
+}
+
+.v-content-ctn
+{
+    margin-left: -3vh;
+}
+.v-cp
+{
+    display: none;
+}
+.v-info-text
+{
+    font-size: 0.8em;
+    width: 70vw;
 }
  }
 
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
-    .v-title-text
-    {
-        font-size: 1.5em;
+@media only screen and (min-width: 375px) and (max-width: 767px){ 
+
+    #Values {
+        width: 100vw;
+        height: 220vh;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #1a1a1a;
     }
-    
-    .vb-title
-    {
-        line-height: 2em;
-    }
-    
+
+.v-container{
+    margin-top: 32vh;
+}
+
+
+.v-content-ctn
+{
+    margin-left: -3vh;
+}
+
+
+.vb-title
+{
+    line-height: 2em;
+    margin-left: -1vw;
+    font-size: 1em;
+    text-align: center;
+}
+
+.v-info-head
+{
+    font-size: 1.5em;
+    width: 80vw;
+}
+
+.ctn{
+    margin-left: 5vw;
+}
+
+.v-info-text
+{
+    font-size: 0.8em;
+    width: 70vw;
+}
+
+.v-cp
+{
+    display: none;
+}
 
  }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){ 
 
-    .v-title-text
-    {
-        font-size: 1.5em;
-    }
     
-    .vb-title
-    {
-        line-height: 2em;
-        font-size: 1em;
-    }
-    .v-container{
-        animation:zoomIn; /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s; /* don't forget to set a duration! */
-        text-align: center;
-    }
-
-    
-
-    .val-ma
-    {
-        margin-top: 5vh;
-        width: 80vw;
-        margin-left: 40vw;
-    
-    }
- 
-
-    .va-reach
-{
-    margin-top: -20vh;
-}
-    
- }
-
-@media only screen and (min-width: 992px){ 
     #Values {
         width: 100vw;
-        height: 300vh;
+        height: 340vh;
         font-family: 'Raleway', sans-serif;
+        color: #1a1a1a;
     }
     
     .v-title-ctn{
@@ -181,60 +216,69 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    
     }
     
-  
-    .v-board-ctn
+    .v-info-head
     {
-        margin-top: 5vh;
-        width: 100vw;
+        color: var(--lotus-green);
+    }
+    
+    
+    .ctn
+    {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        width: 100vw;
+        margin-left: 20vw;
+        margin-top: 10vh;
     }
+    
+    
+    
+    .v-content-ctn-rv
+    {
+        width: 70%;
+        margin-left: -86vw;
+        padding: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        margin:50px;
+        color: whitesmoke;
+       
+    }
+    
+
     .v-container{
+        color: white;
         animation:zoomIn; /* referring directly to the animation's @keyframe declaration */
         animation-duration: 2s; /* don't forget to set a duration! */
+        margin-top: -52vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
     }
     .vb-title
     {
         width: 50vw;
         margin-left: 10vw;
-        font-size: 2em;
+        font-size: 1em;
     }
-    
-    .val-ma
-    {
-        margin-top: 100vh;
-    
-    }
-    
-    
-  
-
     
     .va-reach
     {
         margin-top: 80vh;
     }
     
-    .background{
-        position: absolute;
-        z-index: -10;
-        width: 100vw;
-        height: 100vh;
-        top: 7vh;
-        background-color: var(--lotus-light-purple);
-    }
-    
     .v-title{
-        font-size: 5em;
+        font-size: 4em;
     }
     
     .v-title-text
     {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     
     .vb-title
@@ -244,49 +288,19 @@
 
  }
 
- @media only screen 
-  and (min-width: 1024px) 
-  and (max-height: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
 
-    #Values {
-        width: 100vw;
-        height: 350vh;
-        font-family: 'Raleway', sans-serif;
-        color: #1a1a1a;
-    }
+ @media only screen and (min-width: 992px){ 
 
-    .v-title-text
-    {
-        font-size: 1.5em;
-    }
-    
-    .vb-title
-    {
-        line-height: 2em;
-        font-size: 1em;
-    }
+
+
     .v-container{
-        animation:zoomIn; 
-        animation-duration: 2s; 
-        text-align: center;
+        color: white;
+        animation:zoomIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+        margin-top: -32vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
     }
-
-
-    
-
-    .val-ma
-    {
-        margin-top: 5vh;
-        width: 80vw;
-        margin-left: 40vw;
-    
-    }
- 
-
-    .va-reach
-{
-    margin-top: 6vh;
-}
-
-}
+  }
