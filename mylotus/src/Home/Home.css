@@ -348,6 +348,7 @@
         animation-delay: 2s;
         opacity: 0;
         animation-fill-mode: forwards;
+        margin-left: 0vw;
     }
     
     .h-sub-sub-txt

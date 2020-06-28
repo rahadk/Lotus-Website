@@ -63,7 +63,7 @@ const Values = () => {
     
              <div className="va-content-ctn-rv ">
                  <div className="v-icon grow">
-                 <img className="v-cp img-2 hide" alt="img1" src={img2}></img>
+                 <img id="img-2" className="v-cp hide" alt="img1" src={img2}></img>
                  </div>
                  <div className="v-info">
                      <h1 className="v-info-head">

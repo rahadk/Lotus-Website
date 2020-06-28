@@ -150,7 +150,7 @@
 
     #Values {
         width: 100vw;
-        height: 220vh;
+        height: 180vh;
         font-family: 'Raleway', sans-serif;
         display: flex;
         flex-direction: column;
@@ -210,7 +210,7 @@
 
     #Values {
         width: 100vw;
-        height: 250vh;
+        height:80vh;
         font-family: 'Raleway', sans-serif;
         display: flex;
         flex-direction: column;
@@ -242,6 +242,8 @@
     width: 80vw;
 }
 
+
+
 .ctn{
     margin-left: 40vw;
 }
@@ -254,9 +256,7 @@
 
 .v-cp
 {
-    width: 20vw;
-    margin-left: 20vw;
-    margin-top: 10vh;
+   display:none;
 }
  }
 
@@ -264,7 +264,7 @@
  @media only screen and (min-width: 992px){ 
     #Values {
         width: 100vw;
-        height: 280vh;
+        height: 310vh;
         font-family: 'Raleway', sans-serif;
         display: flex;
         flex-direction: column;
@@ -307,7 +307,9 @@
     width: 60vw;
     margin-left: 7vw;
 }
-
+#img-2{
+    margin-left: 5vw;
+}
 .v-cp
 {
     width: 20vw;

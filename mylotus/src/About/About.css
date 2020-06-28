@@ -178,6 +178,9 @@ color: whitesmoke;
 }
 
 
+h2{
+    margin-left: 0vw;
+}
 .v-infoo-head
 {
     width: 40vw;
@@ -218,6 +221,9 @@ color: whitesmoke;
     display: none;
 }
 
+h2{
+    margin-left: 0vw;
+}
 .a-logo{
     visibility: hidden;
 }
@@ -251,7 +257,7 @@ width: 40vw;
     #About
 {
     width: 100vw;
-    height: 230vh;
+    height: 260vh;
     font-family: 'Raleway', sans-serif;
     background: url(../images/fullsizeoutput_1e73.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -276,6 +282,10 @@ width: 40vw;
 {
     font-size: 14px;
     line-height: 1.25em;
+}
+
+h2{
+    margin-left: 0vw;
 }
 
 .v-title{
@@ -326,7 +336,7 @@ width: 40vw;
     #About
     {
         width: 100vw;
-        height: 330vh;
+        height: 350vh;
         font-family: 'Raleway', sans-serif;
         background: url(../images/fullsizeoutput_1e73.jpeg) no-repeat center center fixed; 
         -webkit-background-size: cover;
