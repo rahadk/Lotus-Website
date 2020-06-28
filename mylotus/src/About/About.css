@@ -86,7 +86,6 @@
 .v-cp-team
 {
     width: 55vw;
-    height: 60=5vh;
 }
 
 .v-icon-team
@@ -132,3 +131,179 @@ color: whitesmoke;
 .v-title{
     margin-top: -5vh;
 }
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px){
+    .v-cp-team
+    {
+       display: none;
+    }
+
+    .values{
+        margin-left: -10vw;
+    }
+
+    .v-title{
+        display: none;
+    }
+
+    .a-logo{
+        visibility: hidden;
+    }
+
+    .v-content-ctn
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: whitesmoke;
+    padding: 15px;
+    margin-top: -5vh;
+    margin-left: 3vh;
+    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+}
+
+
+.v-info-head
+{
+    width: 40vw;
+}
+ }
+
+@media only screen and (min-width: 375px) and (max-width: 767px){
+
+
+    #About
+{
+    width: 100vw;
+    height: 340vh;
+    font-family: 'Raleway', sans-serif;
+    background: url(../images/fullsizeoutput_1e73.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: whitesmoke;
+}
+.v-cp-team
+{
+   display: none;
+}
+
+.values{
+    margin-left: -10vw;
+}
+
+.v-info-text
+{
+    font-size: 14px;
+    line-height: 1.25em;
+}
+
+.v-title{
+    display: none;
+}
+
+.a-logo{
+    visibility: hidden;
+}
+
+.v-content-ctn
+{
+width: 70%;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row-reverse;
+align-items: center;
+color: whitesmoke;
+padding: 15px;
+margin-top: -5vh;
+margin-left: 3vh;
+animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 3s; /* don't forget to set a duration! */
+}
+
+
+.v-info-head
+{
+width: 40vw;
+}
+
+ }
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+    #About
+    {
+        width: 100vw;
+        height: 300vh;
+        font-family: 'Raleway', sans-serif;
+        background: url(../images/fullsizeoutput_1e73.jpeg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: whitesmoke;
+    }
+ 
+    
+    .values{
+        margin-left: -10vw;
+    }
+    
+    .v-info-text
+    {
+        font-size: 14px;
+        line-height: 1.25em;
+    }
+    
+    .v-title{
+        display: none;
+    }
+    
+    .a-logo{
+        visibility: hidden;
+    }
+    
+    .v-info{
+        width: 100vw;
+    }
+    .v-content-ctn
+    {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: whitesmoke;
+    padding: 15px;
+    margin-left: 13vh;
+    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    }
+    
+    .v-content-ctn-rv
+    {
+        width: 70%;
+        margin-left: 16vw;
+        padding: 15px;
+        margin-top: 2vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        color: whitesmoke;
+       
+    }
+
+ }
+
+@media only screen and (min-width: 992px){
+
+
+
+ }

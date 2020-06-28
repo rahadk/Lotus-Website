@@ -7,6 +7,7 @@
     align-items: center;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    color: white;
 }
 
 .logo
@@ -19,7 +20,6 @@
 
 
 .bkgrnd{
-  background-color: var(--lotus-light-purple);
     height: 70vh;
     width:40vw;
     display: flex;
@@ -64,9 +64,9 @@ textarea
     width: 15vw;
     border-radius: 50px;
     padding: 10px;
-    background-color: var(--lotus-light-purple);
-    border: 2px solid var(--lotus-light-purple);
     transition: .5s;
+    background-color: transparent;
+    color: white;
 }
 
 .submit:hover
@@ -74,8 +74,7 @@ textarea
     width: 15vw;
     border-radius: 50px;
     padding: 10px;
-    background-color: white;
-    border: 2px solid var(--lotus-light-purple);
+    border: 2px solid white;
     transition: .5s;
 }
 
@@ -132,8 +131,7 @@ input{
     width: 25vw;
     border-radius: 50px;
     padding: 10px;
-    background-color: var(--lotus-light-purple);
-    border: 2px solid var(--lotus-light-purple);
+    border: 2px solid white;
     transition: .5s;
 }
 
@@ -145,7 +143,7 @@ input{
     #Contact
     {
         width: 100vw;
-        height: 100vh;
+        height: 150vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -175,32 +173,33 @@ input{
     
     .contact-ctn
     {
-        margin-top: -10vh;
+        margin-top: -40vh;
     }
     
+
+    .bkgrnd{
+        width: 80vw;
+    }
     .submit
     {
         width: 25vw;
         border-radius: 50px;
         padding: 10px;
-        background-color: var(--lotus-light-purple);
-        border: 2px solid var(--lotus-light-purple);
+
+        border: 2px solid white;
         transition: .5s;
     }
     
 }
 
 
-
-
-
-@media only screen and (max-width: 992px){ 
-
+@media only screen and (min-width: 992px){ 
 
     #Contact
     {
         width: 100vw;
-        height: 90vh;
+        height: 150vh;
+        margin-top: -5vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -210,7 +209,7 @@ input{
     
     textarea 
     {
-        width:60vw;
+        width:30vw;
         padding: 5px;
         border:2px solid black;
         
@@ -222,7 +221,7 @@ input{
     }
     
     input{
-        width: 70vw;
+        width: 40vw;
         padding: 10px;
         border:2px solid black;
         display:flex;
@@ -230,31 +229,21 @@ input{
     
     .contact-ctn
     {
-        margin-top: 0vh;
+        margin-top: -40vh;
     }
     
+
+    .bkgrnd{
+        width: 60vw;
+        margin-top: -10vh;
+    }
     .submit
     {
         width: 25vw;
         border-radius: 50px;
         padding: 10px;
-        background-color: var(--lotus-light-purple);
-        border: 2px solid var(--lotus-light-purple);
+        border: 2px solid white;
         transition: .5s;
     }
+
  }
-
-
- @media only screen 
-  and (width: 1024px) 
-  and (height: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    .contact-ctn
-    {
-        margin-top: -30vh;
-    }
-
-    .form{
-        margin-top: -30vh;
-    }
-}

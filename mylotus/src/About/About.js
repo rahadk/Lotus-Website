@@ -60,7 +60,7 @@ return(
                      Our Vision
                      </h1>
                      <p className="v-info-text">
-                     A Vision: A world united through music.                     </p>
+                     A world united through music.                     </p>
                  </div>
               
              </div>
@@ -159,7 +159,7 @@ return(
 
               
  
-             <div id="khan" className="v-content-ctn-rv  pinkk">
+             <div  className="v-content-ctn  pinkk">
                  <div className="v-icon grow v-icon-team">
                      <img className="v-cp-team" alt="img1" src={img6}></img>
                  </div>
