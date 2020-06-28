@@ -58,7 +58,8 @@
     align-items: center;
     color: whitesmoke;
     padding: 15px;
-    margin-top: -5vh;
+    margin-top: 5vh;
+    margin-left: 10vw;
     animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 3s; /* don't forget to set a duration! */
 }
@@ -66,7 +67,7 @@
 .v-content-ctn-rv
 {
     width: 70%;
-    margin-left: -16vw;
+    margin-left: -56vw;
     padding: 15px;
     display: flex;
     justify-content: space-evenly;
@@ -77,10 +78,11 @@
 }
 
 
-.v-info
+.v-infoo
 {
     width: 30vw;
     font-size: 20px;
+    margin-left: -20vw;
 }
 
 .v-cp-team
@@ -88,9 +90,18 @@
     width: 55vw;
 }
 
-.v-icon-team
+.v-cp-team
 {
     display: flex;
+    margin-left:  15vw;
+}
+
+h2{
+    margin-left: 7vw;
+}
+.v-icon{
+    margin: 20px;
+    margin-left: 15vw;
 }
 
 
@@ -161,13 +172,13 @@ color: whitesmoke;
     color: whitesmoke;
     padding: 15px;
     margin-top: -5vh;
-    margin-left: 3vh;
+    margin-left: 25vh;
     animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 3s; /* don't forget to set a duration! */
 }
 
 
-.v-info-head
+.v-infoo-head
 {
     width: 40vw;
 }
@@ -197,7 +208,7 @@ color: whitesmoke;
     margin-left: -10vw;
 }
 
-.v-info-text
+.v-infoo-text
 {
     font-size: 14px;
     line-height: 1.25em;
@@ -221,13 +232,13 @@ align-items: center;
 color: whitesmoke;
 padding: 15px;
 margin-top: -5vh;
-margin-left: 3vh;
+margin-left: 25vh;
 animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
 animation-duration: 3s; /* don't forget to set a duration! */
 }
 
 
-.v-info-head
+.v-infoo-head
 {
 width: 40vw;
 }
@@ -238,9 +249,84 @@ width: 40vw;
 
 
     #About
+{
+    width: 100vw;
+    height: 230vh;
+    font-family: 'Raleway', sans-serif;
+    background: url(../images/fullsizeoutput_1e73.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: whitesmoke;
+}
+.v-cp-team
+{
+   display: none;
+}
+
+.values{
+    margin-left: -10vw;
+}
+.v-icon{
+    display: none;
+}
+
+.v-infoo-text
+{
+    font-size: 14px;
+    line-height: 1.25em;
+}
+
+.v-title{
+    display: none;
+}
+
+.a-logo{
+    visibility: hidden;
+}
+
+.v-content-ctn
+{
+width: 70%;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row-reverse;
+align-items: center;
+color: whitesmoke;
+padding: 15px;
+margin-top: 5vh;
+margin-left: -6vh;
+animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 3s; /* don't forget to set a duration! */
+}
+
+
+.v-content-ctn-rv
+{
+    width: 70%;
+    margin-left: -7vw;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    color: whitesmoke;
+   
+}
+
+.v-infoo-head
+{
+width: 40vw;
+}
+ }
+
+@media only screen and (min-width: 992px){
+
+    #About
     {
         width: 100vw;
-        height: 300vh;
+        height: 330vh;
         font-family: 'Raleway', sans-serif;
         background: url(../images/fullsizeoutput_1e73.jpeg) no-repeat center center fixed; 
         -webkit-background-size: cover;
@@ -249,61 +335,8 @@ width: 40vw;
         background-size: cover;
         color: whitesmoke;
     }
- 
-    
-    .values{
-        margin-left: -10vw;
-    }
-    
-    .v-info-text
-    {
-        font-size: 14px;
-        line-height: 1.25em;
-    }
-    
+
     .v-title{
-        display: none;
+        margin-top: 1px;
     }
-    
-    .a-logo{
-        visibility: hidden;
-    }
-    
-    .v-info{
-        width: 100vw;
-    }
-    .v-content-ctn
-    {
-    width: 70%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row-reverse;
-    align-items: center;
-    color: whitesmoke;
-    padding: 15px;
-    margin-left: 13vh;
-    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 3s; /* don't forget to set a duration! */
-    }
-    
-    .v-content-ctn-rv
-    {
-        width: 70%;
-        margin-left: 16vw;
-        padding: 15px;
-        margin-top: 2vh;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        align-items: center;
-        color: whitesmoke;
-       
-    }
-
- }
-
-@media only screen and (min-width: 992px){
-
-
-
  }

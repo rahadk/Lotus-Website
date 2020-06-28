@@ -36,7 +36,7 @@ return(
                  <div className="v-icon grow">
                      <img className="v-cp" alt="img1" src={img1}></img>
                  </div>
-                 <div className="v-info">
+                 <div className="v-infoo">
                      <h1 className="v-info-head">
                          Our Mission
                      </h1>
@@ -51,11 +51,11 @@ return(
 
 
      
-             <div className="v-content-ctn-rv">
+             <div className="v-content-ctn">
                  <div className="v-icon grow">
                      <img className="v-cp" alt="img1" src={img1}></img>
                  </div>
-                 <div className="v-info">
+                 <div className="v-infoo">
                      <h1 className="v-info-head">
                      Our Vision
                      </h1>
@@ -68,11 +68,11 @@ return(
 
 
      
-             <div className="v-content-ctn-rv">
+             <div className="v-content-ctn">
                  <div className="v-icon grow">
                  <img className="v-cp" alt="img1" src={img2}></img>
                  </div>
-                 <div className="v-info">
+                 <div className="v-infoo">
                      <h1 className="v-info-head">
                          The Story
                      </h1>
@@ -96,7 +96,7 @@ return(
                  <div className="v-icon grow">
                      <img className="v-cp" alt="img1" src={img3}></img>
                  </div>
-                 <div className="v-info">
+                 <div className="v-infoo">
                      <h1 className="v-info-head">
                          The Name
                      </h1>
@@ -118,11 +118,11 @@ return(
 
 
      
-             <div className="v-content-ctn-rv">
+             <div className="v-content-ctn">
                  <div className="v-icon grow">
                  <img className="v-cp" alt="img1" src={img4}></img>
                  </div>
-                 <div className="v-info">
+                 <div className="v-infoo">
                      <h1 className="v-info-head">
                          The Process
                      </h1>
@@ -142,11 +142,11 @@ return(
                  <div className="v-icon grow ">
                      <img className="v-cp-team" alt="img1" src={img5}></img>
                  </div>
-                 <div className="v-info">
+                 <div className="v-infoo">
                      <h1 className="v-info-head">
                          Ben Salazar
                      </h1>
-                     <h3> Cofounder/CEO</h3>
+                     <h2> Cofounder/CEO</h2>
                      <p className="v-info-text">
                      Ben is a pre-med student at Johns Hopkins University who hopes to pursue a career as a doctor one day. Mostly focusing on science courses during his time in school, he found his love for business during his freshman year in college when he decided to pick up an entrepreneurship minor and started taking business classes.                     </p>
                      <p className="v-info-text">
@@ -163,7 +163,7 @@ return(
                  <div className="v-icon grow v-icon-team">
                      <img className="v-cp-team" alt="img1" src={img6}></img>
                  </div>
-                 <div className="v-info">
+                 <div className="v-infoo">
                      <h1 className="v-info-head">
                          Rahad Khan
                      </h1>

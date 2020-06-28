@@ -291,6 +291,10 @@
         line-height: 4.5vh;
         font-family: 'Raleway', sans-serif;
     }
+
+    .h-ctn{
+        margin-left: 10vw;
+    }
     
     .h-btn-ctn
     {
@@ -316,6 +320,7 @@
         animation-duration: 2s;
         animation-delay: .5s;
         opacity: 0;
+        margin-left: 5vw;
         animation-fill-mode: forwards;
     }
     

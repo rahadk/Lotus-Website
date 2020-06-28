@@ -3,7 +3,7 @@ import './values.css'
 import { Link } from "react-router-dom";
 import image from '../images/LotusTitle.png';
 import img1 from '../images/stream.png'
-import img2 from '../images/peer.png';
+import img2 from '../images/pr.png';
 import img3 from '../images/listen.png';
 import img4 from '../images/collaborative.png';
 import img5 from '../images/playlists.png';
@@ -36,7 +36,7 @@ const Values = () => {
     </div>
 
 <div className="ctn">
-             <div className="v-content-ctn ">
+             <div className="va-content-ctn ">
                  <div className="va-icon grow">
                      <img className="v-cp hide" alt="img1" src={img1}></img>
                  </div>
@@ -61,7 +61,7 @@ const Values = () => {
 
 
     
-             <div className="v-content-ctn-rv ">
+             <div className="va-content-ctn-rv ">
                  <div className="v-icon grow">
                  <img className="v-cp img-2 hide" alt="img1" src={img2}></img>
                  </div>
@@ -80,7 +80,7 @@ const Values = () => {
 
 
     
-             <div  className="v-content-ctn">
+             <div  className="va-content-ctn">
                  <div className="va-icon grow">
                      <img className="v-cp hide"  alt="img1" src={img3}></img>
                  </div>
@@ -101,7 +101,7 @@ const Values = () => {
 
 
     
-             <div className="v-content-ctn-rv ">
+             <div className="va-content-ctn-rv ">
                  <div className="va-icon grow">
                      <img className="v-cp hide" alt="img1" src={img4}></img>
                  </div>
@@ -119,7 +119,7 @@ const Values = () => {
 
 
     
-             <div className="v-content-ctn" >
+             <div className="va-content-ctn" >
                  <div className="va-icon grow">
                      <img className="v-cp hide"  alt="img1"src={img5}></img>
                  </div>
