@@ -29,8 +29,9 @@ const contact = () => {
 
      
 
-<div className="bkgrnd">
+
   <h1><i>  Experience Everything </i></h1>
+  <div className="bkgrnd">
     <form name="contact"  data-netlify="true" method="POST">
             <input type="hidden" name="form-name" value="contact" />
           <p>

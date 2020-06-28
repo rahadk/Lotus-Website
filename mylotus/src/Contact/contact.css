@@ -52,7 +52,7 @@ textarea
 
 .contact-ctn
 {
-    margin-top: 20vh;
+    margin-top: 10vh;
     font-family: 'Raleway', sans-serif;
     animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 3s; /* don't forget to set a duration! */
@@ -198,8 +198,8 @@ input{
     #Contact
     {
         width: 100vw;
-        height: 150vh;
-        margin-top: -5vh;
+        height: 100vh;
+        margin-top: 25vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -207,12 +207,18 @@ input{
         font-family: 'Raleway', sans-serif;
     }
     
+  
     textarea 
     {
         width:30vw;
         padding: 5px;
         border:2px solid black;
         
+    }
+
+    form
+    {
+        margin-top: -20vh;
     }
     
     .logo
