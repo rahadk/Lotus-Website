@@ -23,13 +23,12 @@ function App({location}) {
     <header className="navigation-header">
        <ul className="navigation-items-container">
        <img className="nav-flower" src={navflower}></img>
-       <img className="nav-logo" src={navimg}></img>
+       <Link to="/">  <img className="nav-logo" src={navimg}></img></Link>
        <Link to="/about"> <li className="nav-item grow"><a href="#Home"> About Us </a></li></Link>
        <Link to="/contact"> <li className="nav-item grow"><a href="#About"> Contact Us </a></li></Link>
 
         </ul>
       </header>
-
 
 
       <TransitionGroup className="transition-group">

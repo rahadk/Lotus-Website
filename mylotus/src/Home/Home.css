@@ -1,0 +1,185 @@
+.home-content-ctn
+{
+ position: fixed;
+ width: 40vw;
+ left: 50vw;
+ top: 25vh;
+ text-align: center
+}
+
+.lotus-lingo{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 7em;
+    line-height: 35px;
+}
+
+.home-flower
+{
+    width: 40vw;
+    left: 5vw;
+    position: fixed;
+}
+
+.home-btm-txt
+{
+    position: fixed;
+    top: 85vh;
+    left: 0vw;
+    width: 100vw;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 374px){ 
+
+    .home-content-ctn
+{
+ position: fixed;
+ width: 40vw;
+ left: calc(18% - 20px);
+ top: 25vh;
+ text-align: center
+}
+
+.lotus-home-text
+{
+    left: 0vw;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+}
+
+.lotus-lingo{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 3em;
+    line-height: 35px;
+}
+
+.home-flower
+{
+    width: 35vw;
+    left: 30vw;
+    top: 10vh;
+    position: fixed;
+}
+
+.home-btm-txt
+{
+    position: fixed;
+    top: 80vh;
+    left: 0vw;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+
+
+ }
+
+@media only screen and (min-width: 375px) and (max-width: 767px){ 
+
+    .home-content-ctn
+{
+ position: fixed;
+ width: 40vw;
+ left: calc(14% - 20px);
+ text-align: center
+}
+
+.lotus-home-text
+{
+    left: 0vw;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+}
+
+.lotus-lingo{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 4em;
+    line-height: 35px;
+}
+
+.home-flower
+{
+    width: 35vw;
+    left: 30vw;
+    top: 10vh;
+    position: fixed;
+}
+
+.home-btm-txt
+{
+    position: fixed;
+    top: 75%;
+    left: 0vw;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 10px;
+}
+ }
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+
+
+    .home-content-ctn
+{
+ position: fixed;
+ width: 40vw;
+ left: calc(14% - 20px);
+ text-align: center
+}
+
+.lotus-home-text
+{
+    left: 0vw;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+}
+
+.lotus-lingo{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 4em;
+    line-height: 35px;
+}
+
+.home-flower
+{
+    width: 35vw;
+    left: 30vw;
+    top: 10vh;
+    position: fixed;
+}
+
+.home-btm-txt
+{
+    position: fixed;
+    top: 75%;
+    left: 0vw;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 10px;
+}
+ }
+
+@media only screen and (min-width: 992px){ 
+
+
+ }
