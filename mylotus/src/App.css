@@ -87,7 +87,6 @@ header ul li:hover  {
 @media (max-width: 768px){
   .navigation-header{
     width:100%;
-    height: 10vh;
     background: rgb(47,95,181);
     background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
     text-align: center;
@@ -99,7 +98,6 @@ header ul li:hover  {
 
   header ul li {
     display:block;
-    border-bottom: 0.5px solid whitesmoke;
   }
 
   header ul li:hover  {
