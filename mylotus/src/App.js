@@ -2,10 +2,13 @@ import React from 'react';
 import './App.css';
 import 'tachyons'
 import Home from './Home/Home';
+import navimg from './images/navbar-lotus-logo.png';
+import navflower from './images/nav-lotus-flower.png';
 import Features from './Values/values';
 import Contact from './Contact/contact';
 import About from './About/About';
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { Switch, Route, withRouter } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
@@ -18,9 +21,11 @@ function App({location}) {
 
     {/* Navigation Menu */}
     <header className="navigation-header">
-        <ul className="navigation-items-container">
-        <li className="nav-item"><a href="#Home"> About Us </a></li>
-        <li className="nav-item"><a href="#About"> Contact Us </a></li>
+       <ul className="navigation-items-container">
+       <img className="nav-flower" src={navflower}></img>
+       <img className="nav-logo" src={navimg}></img>
+       <Link to="/about"> <li className="nav-item grow"><a href="#Home"> About Us </a></li></Link>
+       <Link to="/contact"> <li className="nav-item grow"><a href="#About"> Contact Us </a></li></Link>
 
         </ul>
       </header>

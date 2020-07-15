@@ -33,8 +33,21 @@ html {
   width:100%;
   animation: fadeIn; 
   animation-duration: 2s;
+  text-transform: uppercase;
   background: rgb(47,95,181);
 background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
+}
+.nav-flower
+{
+  width: 5vw;
+  position: fixed;
+  left: 2vw;
+}
+.nav-logo
+{
+  width: 20vw;
+  position: fixed;
+  left: 40vw;
 }
 
 header ul {
@@ -44,7 +57,7 @@ header ul {
   max-width: 1200px;
   margin: 0 auto;
   margin-left: 16vw;
-  height: 10vh;
+  height: 12vh;
   font-family: 'Maven Pro', sans-serif;
   padding: 0;
 }
@@ -74,17 +87,37 @@ header ul li:hover  {
 @media (max-width: 768px){
   .navigation-header{
     width:100%;
-    background: #000;
+    height: 10vh;
+    background: rgb(47,95,181);
+    background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
     text-align: center;
   }
   header ul {
     display:block;
+    margin-left: -3px;
   }
 
   header ul li {
     display:block;
+    border-bottom: 0.5px solid whitesmoke;
   }
+
+  header ul li:hover  {
+    background: rgba(47,95,181,0.5);
+  }
+
+  .nav-flower
+{
+ display:none;
 }
+.nav-logo
+{
+display:none;
+}
+}
+
+
+
 
 
 
