@@ -14,6 +14,19 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 function App({location}) {
   return (
 <Wrapper>
+
+
+    {/* Navigation Menu */}
+    <header className="navigation-header">
+        <ul className="navigation-items-container">
+        <li className="nav-item"><a href="#Home"> About Us </a></li>
+        <li className="nav-item"><a href="#About"> Contact Us </a></li>
+
+        </ul>
+      </header>
+
+
+
       <TransitionGroup className="transition-group">
         <CSSTransition
           key={location.key}
