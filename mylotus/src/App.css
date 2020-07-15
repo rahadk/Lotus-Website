@@ -3,10 +3,9 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Muli', sans-serif;
-  color: black;
+  color: white;
   width: 100vw;
   height: 100vh;
-
 }
 
 a
@@ -20,6 +19,10 @@ html {
   overflow: scroll;
   overflow-x: hidden;
   font-family: 'Muli', sans-serif;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(63,63,63,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 ::-webkit-scrollbar {
   width: 0px;  /* Remove scrollbar space */
