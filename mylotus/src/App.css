@@ -44,13 +44,13 @@ background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
 .nav-flower
 {
   width: 5vw;
-  position: fixed;
+  position: absolute;
   left: 2vw;
 }
 .nav-logo
 {
   width: 20vw;
-  position: fixed;
+  position: absolute;
   left: 40vw;
   top: -12vh;
 }
@@ -63,7 +63,7 @@ header ul {
   margin: 0 auto;
   margin-left: 16vw;
   height: 12vh;
-  font-family: 'Maven Pro', sans-serif;
+  font-family:'AvenirLTW01-45BookObliq';
   padding: 0;
 }
 

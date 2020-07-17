@@ -1,35 +1,54 @@
+#home {
+    width: 100vw;
+    height: 400vh;
+}
+
+
 .home-content-ctn
 {
- position: fixed;
+position: absolute;
  width: 40vw;
  left: 50vw;
- top: 25vh;
+ top: 15vh;
  text-align: center
 }
 
 .lotus-lingo{
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 5px;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
     font-weight: lighter;
     font-style: italic;
     font-size: 7em;
     line-height: 35px;
+    animation: fadeInRight;
+    animation-duration: 2s; 
 }
 
 .home-flower
 {
     width: 40vw;
     left: 5vw;
-    position: fixed;
+    top: 0;
+   position: absolute;
+   animation: fadeInLeft;
+   animation-duration: 2s; 
+}
+
+.lotus-home-text{
+   
+font-family:'Avenir LT W01 35 Light';
+color: rgba(255,255,255,0.7);
+animation: fadeIn;
+animation-duration: 3s; 
 }
 
 .home-btm-txt
 {
-    position: fixed;
-    top: 85vh;
+   position: absolute;
+    top: 75vh;
     left: 0vw;
     width: 100vw;
     text-align: center;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
     font-size: 2.5em;
 }
 
@@ -37,7 +56,7 @@
 
     .home-content-ctn
 {
- position: fixed;
+position: absolute;
  width: 40vw;
  left: calc(18% - 20px);
  top: 25vh;
@@ -49,12 +68,11 @@
     left: 0vw;
     padding: 10px;
     text-align: center;
-    position: fixed;
+   position: absolute;
 }
 
 .lotus-lingo{
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 5px;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
     font-weight: lighter;
     font-style: italic;
     font-size: 3em;
@@ -66,12 +84,12 @@
     width: 35vw;
     left: 30vw;
     top: 10vh;
-    position: fixed;
+   position: absolute;
 }
 
 .home-btm-txt
 {
-    position: fixed;
+   position: absolute;
     top: 80vh;
     left: 0vw;
     width: 100vw;
@@ -88,7 +106,7 @@
 
     .home-content-ctn
 {
- position: fixed;
+position: absolute;
  width: 40vw;
  left: calc(14% - 20px);
  text-align: center
@@ -99,12 +117,11 @@
     left: 0vw;
     padding: 10px;
     text-align: center;
-    position: fixed;
+   position: absolute;
 }
 
 .lotus-lingo{
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 5px;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
     font-weight: lighter;
     font-style: italic;
     font-size: 4em;
@@ -116,12 +133,12 @@
     width: 35vw;
     left: 30vw;
     top: 10vh;
-    position: fixed;
+   position: absolute;
 }
 
 .home-btm-txt
 {
-    position: fixed;
+   position: absolute;
     top: 75%;
     left: 0vw;
     width: 100vw;
@@ -136,7 +153,7 @@
 
     .home-content-ctn
 {
- position: fixed;
+position: absolute;
  width: 40vw;
  left: calc(14% - 20px);
  text-align: center
@@ -147,12 +164,11 @@
     left: 0vw;
     padding: 10px;
     text-align: center;
-    position: fixed;
+   position: absolute;
 }
 
 .lotus-lingo{
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 5px;
+    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
     font-weight: lighter;
     font-style: italic;
     font-size: 4em;
@@ -164,12 +180,12 @@
     width: 35vw;
     left: 30vw;
     top: 10vh;
-    position: fixed;
+   position: absolute;
 }
 
 .home-btm-txt
 {
-    position: fixed;
+   position: absolute;
     top: 75%;
     left: 0vw;
     width: 100vw;
