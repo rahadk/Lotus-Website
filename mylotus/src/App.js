@@ -4,7 +4,6 @@ import 'tachyons'
 import Home from './Home/Home';
 import navimg from './images/navbar-lotus-logo.png';
 import navflower from './images/nav-lotus-flower.png';
-import Features from './Values/values';
 import Contact from './Contact/contact';
 import About from './About/About';
 import styled from "styled-components";
@@ -41,7 +40,6 @@ function App({location}) {
             <Switch location={location}>
             <Route path="/" exact component={Home} />
             <Route path="/About" exact component={About} />
-            <Route path="/Features" exact component={Features} />
              <Route path="/Contact" exact component={Contact} />
             </Switch>
             </section>
