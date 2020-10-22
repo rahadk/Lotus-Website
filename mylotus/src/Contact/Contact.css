@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
 
-    padding-left: 35rem;
+    padding-left: 32%;
     display:block;
     margin-top: 3%;
     /*display: flex;*/
@@ -96,4 +96,8 @@
     font-size:1.5em;
 }
 
-
+@media (max-width: 414px){
+	#contactUsHeader{
+		font-size: 20pt;
+	}	
+}
