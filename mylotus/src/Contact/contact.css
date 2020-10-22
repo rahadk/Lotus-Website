@@ -1,17 +1,24 @@
-#Contact
+#contact
 {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: white;
+
+    padding-left: 35rem;
+    display:block;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    /*color: white;*/
 }
 
-.logo
-{
+#contactUsHeader{
+    font-family: Arial;
+    font-size: 35pt;
+}
+
+.logo{
     margin-top: -5vh;
     width: 55vw;
     animation:backInLeft; /* referring directly to the animation's @keyframe declaration */
@@ -19,39 +26,68 @@
 }
 
 
-.bkgrnd{
-    height: 70vh;
-    width:40vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    flex-direction: column;
-    animation:slideInRight; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
+/*.bkgrnd{*/
+/*    height: 70vh;*/
+/*    width:40vw;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border-radius: 20px;*/
+/*    flex-direction: column;*/
+/*    animation:slideInRight; !* referring directly to the animation's @keyframe declaration *!*/
+/*    animation-duration: 2s; !* don't forget to set a duration! *!*/
+/*}*/
+
+.form-group{
+    margin-bottom: .8rem;
 }
 
+#contact form{
+    display: block;
+}
 
-input{
+#contact label{
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+#contact input{
     width: 35vw;
-    padding: 10px;
-    border:2px solid black;
-    border-radius: 50px;
+    height: 4vh;
+    color: white;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: #595959;
+    display: block;
+    margin-top: .2rem;
 }
 
-textarea 
-{
-    width:30vw;
-   border-radius: 50px;
-    display: flex;
-    margin-left: 5vw;
-    padding: 40px;
-    border:2px solid black;
-    
+#contact textarea {
+    width:35vw;
+    height: 20vh;
+    color: white;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: #595959;
+    display: block;
+    margin-top: .5rem;
 }
 
-.contact-ctn
-{
+#contact button{
+    height: 4vh;
+    width: 7vw;
+    font-size: 15pt;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
+}
+
+#contact button:hover{
+    cursor: pointer;
+}
+
+.contact-ctn {
     margin-top: 10vh;
     font-family: 'Raleway', sans-serif;
     animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
@@ -59,197 +95,29 @@ textarea
     color: whitesmoke;
 }
 
-.submit
-{
-    width: 15vw;
-    border-radius: 50px;
-    padding: 10px;
-    transition: .5s;
-    background-color: transparent;
-    color: white;
-}
+/*.submit {*/
+/*    width: 15vw;*/
+/*    border-radius: 50px;*/
+/*    padding: 10px;*/
+/*    transition: .5s;*/
+/*    background-color: transparent;*/
+/*    color: white;*/
+/*}*/
 
-.submit:hover
-{
-    width: 15vw;
-    border-radius: 50px;
-    padding: 10px;
-    border: 2px solid white;
-    transition: .5s;
-}
+/*.submit:hover {*/
+/*    width: 15vw;*/
+/*    border-radius: 50px;*/
+/*    padding: 10px;*/
+/*    border: 2px solid white;*/
+/*    transition: .5s;*/
+/*}*/
 
-.contact-head
-{
+.contact-head {
     font-size:2.5em;
 }
 
-.contact-text
-{
+.contact-text {
     font-size:1.5em;
 }
 
 
-@media only screen and (max-width: 768px) {
-    #Contact
-{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-}
-
-textarea 
-{
-    width:60vw;
-    padding: 5px;
-    border:2px solid black;
-    
-}
-
-.logo
-{
-  display: none;
-}
-
-input{
-    width: 70vw;
-    padding: 10px;
-    border:2px solid black;
-    display:flex;
-}
-
-.contact-ctn
-{
-    margin-top: 25px;
-}
-
-.submit
-{
-    width: 25vw;
-    border-radius: 50px;
-    padding: 10px;
-    border: 2px solid white;
-    transition: .5s;
-}
-
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
-
-
-    #Contact
-    {
-        width: 100vw;
-        height: 150vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        font-family: 'Raleway', sans-serif;
-    }
-    
-    textarea 
-    {
-        width:60vw;
-        padding: 5px;
-        border:2px solid black;
-        
-    }
-    
-    .logo
-    {
-      display: none;
-    }
-    
-    input{
-        width: 70vw;
-        padding: 10px;
-        border:2px solid black;
-        display:flex;
-    }
-    
-    .contact-ctn
-    {
-        margin-top: -40vh;
-    }
-    
-
-    .bkgrnd{
-        width: 80vw;
-    }
-    .submit
-    {
-        width: 25vw;
-        border-radius: 50px;
-        padding: 10px;
-
-        border: 2px solid white;
-        transition: .5s;
-    }
-    
-}
-
-
-@media only screen and (min-width: 992px){ 
-
-    #Contact
-    {
-        width: 100vw;
-        height: 100vh;
-        margin-top: 25vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        font-family: 'Raleway', sans-serif;
-    }
-    
-  
-    textarea 
-    {
-        width:30vw;
-        padding: 5px;
-        border:2px solid black;
-        
-    }
-
-    form
-    {
-        margin-top: -15vh;
-    }
-    
-    .logo
-    {
-      display: none;
-    }
-    
-    input{
-        width: 40vw;
-        padding: 10px;
-        border:2px solid black;
-        display:flex;
-    }
-    
-    .contact-ctn
-    {
-        margin-top: -40vh;
-    }
-    
-
-    .bkgrnd{
-        width: 60vw;
-        margin-top: -10vh;
-    }
-    .submit
-    {
-        width: 25vw;
-        border-radius: 50px;
-        padding: 10px;
-        border: 2px solid white;
-        transition: .5s;
-    }
-
- }

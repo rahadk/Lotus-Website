@@ -1,37 +1,40 @@
 import React from 'react';
 import './contact.css';
-import { Link } from "react-router-dom";
+import {Form} from 'react-bootstrap'
 
+class contact extends React.Component<>{
+    render(){
+        return(
+            <div id="contact">
+                <h1 id="contactUsHeader">Contact Us</h1>
+                <Form name="contact"  data-netlify="true" method="POST">
+                    <input type="hidden" name="form-name" value="contact" />
 
+                    <Form.Group>
+                        <Form.Label>What's your name?</Form.Label>
+                        <Form.Control as="input" type="text" name="name" required></Form.Control>
+                    </Form.Group>
 
-const contact = () => {
-    return(
-        <div id="Contact">
-  
+                    <Form.Group>
+                        <Form.Label>What's your Email?</Form.Label>
+                        <Form.Control as="input" name="email" type="email" required></Form.Control>
+                    </Form.Group>
 
+                    <Form.Group>
+                        <Form.Label>Subject</Form.Label>
+                        <Form.Control as="input" type="text" name="email" required ></Form.Control>
+                    </Form.Group>
 
-  <h1><i>  Experience Everything </i></h1>
-  <div className="bkgrnd">
-    <form name="contact"  data-netlify="true" method="POST">
-            <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>Your Name: <input type="text" placeholder="Your name goes here..." name="name" required /></label>
-          </p>
-          <p>
-            <label>Your Email: <input  placeholder="Your email goes here..."type="email" name="email" required /></label>
-          </p>
-          <p>
-            <label>Message (optional): <textarea placeholder="Say hello..." name="message"></textarea></label>
-          </p>
-          <p>
-            <button className="submit" type="submit">Send</button>
-          </p>
-        </form>
-        </div>
+                    <Form.Group>
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control as="textarea" type="text" name="message"></Form.Control>
+                    </Form.Group>
 
-        </div>
-    )
-
+                    <button className="submit" type="submit"><b>SUBMIT</b></button>
+                </Form>
+            </div>
+        )
+    }
 };
 
 export default contact;
