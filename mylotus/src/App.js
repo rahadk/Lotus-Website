@@ -4,7 +4,7 @@ import 'tachyons'
 import Home from './Home/Home';
 import navimg from './images/navbar-lotus-logo.png';
 import navflower from './images/nav-lotus-flower.png';
-import Contact from './Contact/contact';
+import Contact from './Contact/Contact';
 import About from './About/About';
 import styled from "styled-components";
 import { Link } from "react-router-dom";
@@ -40,7 +40,7 @@ function App({location}) {
             <Switch location={location}>
             <Route path="/" exact component={Home} />
             <Route path="/About" exact component={About} />
-             <Route path="/Contact" exact component={Contact} />
+             <Route path="/contact" exact component={Contact} />
             </Switch>
             </section>
             </CSSTransition>

@@ -1,8 +1,8 @@
 import React from 'react';
-import './contact.css';
+import './Contact.css';
 import {Form} from 'react-bootstrap'
 
-class contact extends React.Component<>{
+class Contact extends React.Component<>{
     render(){
         return(
             <div id="contact">
@@ -37,4 +37,4 @@ class contact extends React.Component<>{
     }
 };
 
-export default contact;
+export default Contact;
