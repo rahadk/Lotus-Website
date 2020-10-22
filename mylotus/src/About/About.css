@@ -1,0 +1,15 @@
+#About-Section{
+    font-family: Arial;
+    align-content: center;
+    text-align: center;
+}
+
+#About-Lotus{
+    display: inline-flex;
+    align-content: center;
+}
+
+#Top-Flower{
+    width: 5rem;
+    height: 5rem;
+}
