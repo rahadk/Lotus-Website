@@ -5,6 +5,7 @@
 
     padding-left: 35rem;
     display:block;
+    margin-top: 3%;
     /*display: flex;*/
     /*justify-content: center;*/
     /*align-items: center;*/
@@ -16,6 +17,7 @@
 #contactUsHeader{
     font-family: Arial;
     font-size: 35pt;
+    font-weight: 800;
 }
 
 .logo{
@@ -25,25 +27,12 @@
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 
-
-/*.bkgrnd{*/
-/*    height: 70vh;*/
-/*    width:40vw;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    border-radius: 20px;*/
-/*    flex-direction: column;*/
-/*    animation:slideInRight; !* referring directly to the animation's @keyframe declaration *!*/
-/*    animation-duration: 2s; !* don't forget to set a duration! *!*/
-/*}*/
+#contact form{
+    display: block;
+}
 
 .form-group{
     margin-bottom: .8rem;
-}
-
-#contact form{
-    display: block;
 }
 
 #contact label{
@@ -60,9 +49,11 @@
     background-color: #595959;
     display: block;
     margin-top: .2rem;
+    padding-left: 1%;
 }
 
 #contact textarea {
+    resize: none;
     width:35vw;
     height: 20vh;
     color: white;
@@ -71,6 +62,8 @@
     background-color: #595959;
     display: block;
     margin-top: .5rem;
+    padding-top: 1%;
+    padding-left: 1%;
 }
 
 #contact button{
@@ -94,23 +87,6 @@
     animation-duration: 3s; /* don't forget to set a duration! */
     color: whitesmoke;
 }
-
-/*.submit {*/
-/*    width: 15vw;*/
-/*    border-radius: 50px;*/
-/*    padding: 10px;*/
-/*    transition: .5s;*/
-/*    background-color: transparent;*/
-/*    color: white;*/
-/*}*/
-
-/*.submit:hover {*/
-/*    width: 15vw;*/
-/*    border-radius: 50px;*/
-/*    padding: 10px;*/
-/*    border: 2px solid white;*/
-/*    transition: .5s;*/
-/*}*/
 
 .contact-head {
     font-size:2.5em;
