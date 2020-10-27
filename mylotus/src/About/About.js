@@ -22,7 +22,7 @@ class About extends React.Component{
                         <div id="aboutFlowerContainer">
                             <Image id="aboutUsFlower" src={flower}></Image>
                         </div>
-                        
+
                     </div>
 
 
@@ -34,7 +34,7 @@ class About extends React.Component{
                 </div>
                 
                 <div id="theMission">
-                    <span id="theMissionHeader">The Mission</span>
+                    <span class="aboutHeader">The Mission</span>
                     <p>
                         To create a platform where users can discover, experience, and share all of their favorite music from a w
                         ide range of services in one location.
@@ -42,14 +42,14 @@ class About extends React.Component{
                 </div>
 
                 <div id="theVision">
-                    <span id="theVisionHeader">The Vision</span>
+                    <span class="aboutHeader">The Vision</span>
                     <p>
                         A world united through music.
                     </p>
                 </div>
 
                 <div id="theStory">
-                    <span id="theStoryHeader">The Story</span>
+                    <span class="aboutHeader">The Story</span>
                     <p>
                         More and more these days, people are trying to share music with their friends on social media. This normally comes in the form of a screenshot on Instagram or Snapchat or a link on Facebook or Twitter. While this is great for sharing, people looking to listen to the song, add it to a playlist, or share with their friends must go to a different service and find it themselves.
                     </p>
@@ -59,7 +59,7 @@ class About extends React.Component{
                 </div>
 
                 <div id="theName">
-                    <span id="theNameHeader">The Name</span>
+                    <span class="aboutHeader">The Name</span>
                     <p>We chose the lotus flower as our core symbol for a few reasons: </p>
                     <p>Lotus ends in the word “us,” emphasizing the social nature of the platform.</p>
                     <p>In eastern religions, the lotus flower represents rebirth and enlightenment, which is what we aim to do to with music sharing.</p>
@@ -68,7 +68,7 @@ class About extends React.Component{
                 </div>
 
                 <div id="theTeam">
-                    <span id="theTeamHeader">The Team</span>
+                    <span class="aboutHeader">The Team</span>
                 </div>
 
             </div>
