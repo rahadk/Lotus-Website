@@ -10,14 +10,22 @@ class About extends React.Component{
         return(
 
             <div id="aboutSection">
+
                 <div id="aboutLotus">
-                    <div id="aboutSpanContainer">
-                        <span id="aboutSpan">About Lotus </span>
+
+                    <div id="headerContainer">
+
+                        <div id="aboutSpanContainer">
+                            <span id="aboutSpan">About Lotus </span>
+                        </div>
+
+                        <div id="aboutFlowerContainer">
+                            <Image id="aboutUsFlower" src={flower}></Image>
+                        </div>
+                        
                     </div>
 
-                    <div id="aboutFlowerContainer">
-                        <Image id="aboutUsFlower" src={flower}></Image>
-                    </div>
+
                     <p>
                         Our goal is to disrupt the traditional social media landscape of just sharing pictures, 
                         ideas, and videos to sharing something more meaningful: Live Experiences.
