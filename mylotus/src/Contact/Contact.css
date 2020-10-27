@@ -5,7 +5,7 @@
 
     padding-left: 32%;
     display:block;
-    margin-top: 3%;
+    margin-top: 5%;
     /*display: flex;*/
     /*justify-content: center;*/
     /*align-items: center;*/
@@ -68,12 +68,13 @@
 
 #contact button{
     height: 4vh;
-    width: 7vw;
+    width: 125px;
     font-size: 15pt;
     border-radius: 5px;
     border: none;
     color: white;
-    background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
+    background: linear-gradient(-45deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
+    font-family: Arial;
 }
 
 #contact button:hover{
@@ -99,5 +100,22 @@
 @media (max-width: 414px){
 	#contactUsHeader{
 		font-size: 20pt;
-	}	
+	}
+
+    #contact{
+        padding-left: 25%;
+        margin-top: 10%;
+    }
+
+    #contact input{
+        width: 60vw;
+    }
+
+    #contact textarea{
+        width: 60vw;
+    }
+
+    /*#contact button{*/
+    /*    width: 35vw;*/
+    /*}*/
 }
