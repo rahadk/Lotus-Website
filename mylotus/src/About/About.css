@@ -1,14 +1,38 @@
-#About-Section{
+#aboutSection{
     font-family: Arial;
-    align-content: center;
+    width: 100vw;
+    height: 85vh;
+    /*padding-left: 32%;*/
+    display: block;
+    margin-top: 5%;
+    text-align: center;
 }
 
-#About-Lotus{
-    padding-left: auto;
+#aboutLotus{
+    display: inline;
+    width: 33%;
+    height: 100%;
+}
+
+#aboutSpanContainer{
+    display: inline;
+
+}
+
+#aboutFlowerContainer{
+    display: inline;
+    height: 10rem;
+    width: 5rem;
+}
+
+#aboutSpan{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#aboutUsFlower{
+    width: 10rem;
+    height: 10rem;
     
 }
 
-#Top-Flower{
-    width: 5rem;
-    height: 5rem;
-}
