@@ -1,30 +1,15 @@
-#contact
-{
+#contact{
     width: 100vw;
-    height: 100vh;
-
+    height: 85vh;
     padding-left: 32%;
     display:block;
     margin-top: 5%;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*text-align: center;*/
-    /*font-family: 'Raleway', sans-serif;*/
-    /*color: white;*/
 }
 
 #contactUsHeader{
     font-family: Arial;
     font-size: 35pt;
     font-weight: 800;
-}
-
-.logo{
-    margin-top: -5vh;
-    width: 55vw;
-    animation:backInLeft; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 #contact form{
@@ -38,6 +23,7 @@
 #contact label{
     font-size: 14pt;
     font-weight: bolder;
+    font-family: Arial;
 }
 
 #contact input{
@@ -45,7 +31,7 @@
     height: 4vh;
     color: white;
     border:1px solid black;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #595959;
     display: block;
     margin-top: .2rem;
@@ -58,7 +44,7 @@
     height: 20vh;
     color: white;
     border:1px solid black;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #595959;
     display: block;
     margin-top: .5rem;
@@ -71,6 +57,7 @@
     width: 125px;
     font-size: 15pt;
     border-radius: 5px;
+    margin-top: 1%;
     border: none;
     color: white;
     background: linear-gradient(-45deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
@@ -79,22 +66,6 @@
 
 #contact button:hover{
     cursor: pointer;
-}
-
-.contact-ctn {
-    margin-top: 10vh;
-    font-family: 'Raleway', sans-serif;
-    animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 3s; /* don't forget to set a duration! */
-    color: whitesmoke;
-}
-
-.contact-head {
-    font-size:2.5em;
-}
-
-.contact-text {
-    font-size:1.5em;
 }
 
 @media (max-width: 414px){
@@ -114,8 +85,4 @@
     #contact textarea{
         width: 60vw;
     }
-
-    /*#contact button{*/
-    /*    width: 35vw;*/
-    /*}*/
 }

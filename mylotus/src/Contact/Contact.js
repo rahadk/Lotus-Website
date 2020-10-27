@@ -11,7 +11,7 @@ class Contact extends React.Component<>{
                     <input type="hidden" name="form-name" value="contact" />
 
                     <Form.Group>
-                        <Form.Label>What's your name?</Form.Label>
+                        <Form.Label>What's your Name?</Form.Label>
                         <Form.Control as="input" type="text" name="name" required></Form.Control>
                     </Form.Group>
 
