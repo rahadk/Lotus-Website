@@ -1,12 +1,11 @@
 #About-Section{
     font-family: Arial;
     align-content: center;
-    text-align: center;
 }
 
 #About-Lotus{
-    display: inline-flex;
-    align-content: center;
+    padding-left: auto;
+    
 }
 
 #Top-Flower{

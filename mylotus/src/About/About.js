@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Image} from 'react-bootstrap';
+import {Col, Container, Image, Row} from 'react-bootstrap';
 import './About.css'
 import { Link } from "react-router-dom";
 const flower =  require("../images/nav-lotus-flower.png");
@@ -10,10 +10,12 @@ class About extends React.Component{
         return(
 
             <div id="About-section">
-                <Container fluid id="About-Lotus">
+                <div fluid id="About-Lotus">
                     <h1>About Lotus</h1>
-                    <Image id="Top-Flower" src={flower}></Image>
-                </Container>
+                    <Image id="Top-Flower" src={flower}>
+
+                    </Image>
+                </div>
 
                 <div id="The-Mission">
 
