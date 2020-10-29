@@ -10,11 +10,8 @@ class About extends React.Component{
         return(
 
             <div id="aboutPage">
-
                 <div id="aboutLotus">
-
                     <div id="headerContainer">
-
                         <div id="aboutSpanContainer">
                             <span id="aboutSpan">About Lotus </span>
                         </div>
@@ -30,8 +27,6 @@ class About extends React.Component{
                             ideas, and videos to sharing something more meaningful: Live Experiences.
                         </p>
                     </div>
-                    
-                    
                 </div>
                 
                 <div id="theMission" class="aboutSection">
@@ -41,7 +36,6 @@ class About extends React.Component{
                             To create a platform where users can discover, experience, and share all of their favorite music from a wide range of services in one location.
                         </p>
                     </div>
-                        
                 </div>
 
                 <div id="theVision" class="aboutSection">
@@ -76,14 +70,33 @@ class About extends React.Component{
                         <p class="sectionText">In eastern religions, the lotus flower represents rebirth and enlightenment, which is what we aim to do to with music sharing.</p>
                         <p class="sectionText">As a water dwelling flower, the lotus can compliment a stream, similar to how we compliment streaming services.</p>
                         <p class="sectionText">Despite only growing in the mud, the lotus flower blooms into something beautiful, representing how we will continue to grow despite any challenges that come our way.</p>
-                    </div>
-                    
+                    </div>                    
                 </div>
 
                 <div id="theTeam" class="aboutSection">
                     <span class="aboutHeader">The Team</span>
+                    <div class="bioContainer">
+                        <div class="bioLeftContainer">
+                            <div class="bioPictureContainer">
+                                <Image class="profilePicture" src={flower} roundedCircle></Image>
+                            </div>
+                            <span class="bioName">Ben Salazar</span> <br></br>
+                            <span class="bioCompanyPosition">Co-Founder/CEO</span>
+                        </div>
+                        <div class="bioTextContainer">
+                            <p class="sectionText">
+                                Ben is a pre-med student at Johns Hopkins University who hopes to pursue a career as a doctor one day. Mostly focusing on science courses during his time in school, he found his love for business during his freshman year in college when he decided to pick up an entrepreneurship minor and started taking business classes.
+                            </p> 
+
+                            <p class="sectionText">
+                                He started Lotus with high school football teammate and long time friend Rahad in order to share his love of music with all of his friends. His music interests include everything from house music and rap to rock and roll. In his free time, Ben enjoys playing the guitar, reading, and playing football with his friends.
+                            </p>
+
+                        </div>
+                    </div>
                 </div>
 
+                
             </div>
         )
     }    

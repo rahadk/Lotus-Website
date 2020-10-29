@@ -12,7 +12,6 @@
     display: grid;
     grid-template-columns: 1.25fr 1fr;
     width: 100%;
-    
 }
 
 #aboutFlowerContainer{
@@ -60,4 +59,24 @@
 
 #theStoryTextContainer{
     text-align: left;
+}
+
+.bioContainer{
+    width: 66vw;
+    margin-left: 16.5vw;
+    text-align: left;
+    display: inline;
+}
+
+.bioLeftContainer{
+    float: left;
+}
+
+.bioPictureContainer{
+    width: 300px;
+    height: 200px;
+}
+
+.bioTextContainer{
+    width: 66vw;
 }
