@@ -1,10 +1,10 @@
-#aboutSection{
+#aboutPage{
     font-family: Arial;
     width: 100vw;
     height: 85vh;
     /*padding-left: 32%;*/
     display: block;
-    margin-top: 5%;
+    margin-top: 5vh;
     text-align: center;
 }
 
@@ -12,10 +12,6 @@
     display: grid;
     grid-template-columns: 1.25fr 1fr;
     width: 100%;
-    
-}
-
-#aboutSpanContainer{
     
 }
 
@@ -28,11 +24,12 @@
     font-size: 60px;
     font-weight: bold;
     float: right;
-    padding-top: 5%
+    padding-top: 5vh;
+    padding-right: 2vw;
 }
 
 #aboutUsFlower{
-    padding-left: 5%;
+    padding-left: 0%;
     width: 10rem;
     height: 10rem;
 }
@@ -42,6 +39,24 @@
     font-weight: bold;
 }
 
-#theName{
-    
+.aboutSection{
+    margin-top: 10vh;
+}
+
+#theNameTextContainer{
+    font-family: Avenir;
+    font-size: 21px;
+    text-align: left;
+    width: 55vw;
+    margin-left: 25vw;
+    margin-top: 5vh;
+}
+
+#theStoryTextContainer{
+    font-family: Avenir;
+    font-size: 21px;
+    text-align: left;
+    width: 55vw;
+    margin-left: 25vw;
+    margin-top: 5vh;
 }
