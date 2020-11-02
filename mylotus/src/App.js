@@ -21,7 +21,7 @@ function App({location}) {
 	<header className="navigation-header">
        <ul className="navigation-items-container">
        <img id="nav-flower" src={navsun}></img>
-       <Link to="/">  <img id="nav-logo" src={navimg}></img></Link>
+       <Link to="/" id="logoLink">  <img id="nav-logo" src={navimg}></img></Link>
        <Link to="/about"> <li className="nav-item navBarLink"><a href="#Home"> About Us </a></li></Link>
        <Link to="/contact"> <li className="nav-item navBarLink"><a href="#About"> Contact Us </a></li></Link>
 

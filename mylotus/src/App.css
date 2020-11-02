@@ -41,14 +41,15 @@ html {
   	background: rgb(2,218,253);
 	background: radial-gradient(circle, rgba(2,218,253,1) 25%, rgba(26,146,207,1) 57%, rgba(5,135,244,1) 83%);
 }
-#nav-flower
-{
-  width: 5vw;
+
+#nav-flower{
+  width: 80px;
   position: absolute;
-  left: 2vw;
+  left: 0vw;
+  margin-top: 5px;
 }
-#nav-logo
-{
+
+#nav-logo{
   width: 20vw; 
 }
 
@@ -63,7 +64,7 @@ header ul {
   max-width: 1200px;
   margin: 0 auto;
   margin-left: 16vw;
-  height: 12vh;
+  height: 8vh;
   font-family:'AvenirLTW01-45BookObliq';
   padding: 0;
 }
@@ -82,7 +83,7 @@ header ul li:last-child{
 
 header ul li a {
   text-decoration: none;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
   color: #fff;
 }
 
@@ -91,41 +92,14 @@ header ul li:hover  {
 }
 
 @media (max-width: 768px){
-  .navigation-header{
-    width:100%;
-    background: rgb(47,95,181);
-    background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
-    text-align: center;
-  }
-  header ul {
-    display:block;
-    margin-left: -3px;
-  }
-
-  header ul li {
-    display:block;
-  }
-
-  header ul li:hover  {
-    background: rgba(47,95,181,0.5);
-  }
-
-  .nav-flower
-{
- display:none;
+	.navBarLink{
+		font-size: 10pt;
+	}
+/*
+	#nav-flower{
+		width: 15vw;
+		position: absolute;
+		left: 2vw;
+	}
+	*/
 }
-.nav-logo
-{
-display:none;
-}
-
-}
-
-
-
-
-
-
-
-
-
