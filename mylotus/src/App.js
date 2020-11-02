@@ -23,7 +23,7 @@ function App({location}) {
        <img id="nav-flower" src={navsun}></img>
        <Link to="/" id="logoLink">  <img id="nav-logo" src={navimg}></img></Link>
        <Link to="/about"> <li className="nav-item navBarLink"><a href="#Home"> About Us </a></li></Link>
-       <Link to="/contact"> <li className="nav-item navBarLink"><a href="#About"> Contact Us </a></li></Link>
+       <Link to="/contact" id="contactLink"> <li className="nav-item navBarLink"><a href="#About"> Contact Us </a></li></Link>
 
         </ul>
       </header> 
