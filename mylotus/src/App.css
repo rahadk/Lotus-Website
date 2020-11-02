@@ -90,10 +90,6 @@ header ul li a{
   color: #fff;
 }
 
-header ul li:hover{
-  background: rgba(47,95,181,0.5);
-}
-
 @media (max-width: 768px){
 	.navBarLink{
 		font-size: 5pt;
@@ -104,7 +100,7 @@ header ul li:hover{
 	}
 
 	#logoLink{
-		right: 31vw;
+		right: 32vw;
 	}
 
 	header ul li{
