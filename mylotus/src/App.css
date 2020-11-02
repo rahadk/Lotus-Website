@@ -34,25 +34,26 @@ html {
 
 /* Navigation styling  */
 .navigation-header{
-  width:100%;
-  animation: fadeIn; 
-  animation-duration: 2s;
-  text-transform: uppercase;
-  background: rgb(47,95,181);
-background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
+	width:100%;
+  	animation: fadeIn; 
+  	animation-duration: 2s;
+  	text-transform: uppercase;
+  	background: rgb(2,218,253);
+	background: radial-gradient(circle, rgba(2,218,253,1) 25%, rgba(26,146,207,1) 57%, rgba(5,135,244,1) 83%);
 }
-.nav-flower
+#nav-flower
 {
   width: 5vw;
   position: absolute;
   left: 2vw;
 }
-.nav-logo
+#nav-logo
 {
-  width: 20vw;
-  position: absolute;
-  left: 40vw;
-  top: -12vh;
+  width: 20vw; 
+}
+
+.navBarLink{
+	font-family: Arial;	
 }
 
 header ul {
