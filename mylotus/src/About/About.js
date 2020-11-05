@@ -1,15 +1,17 @@
-import React from 'react'
-import {Col, Container, Image, Row} from 'react-bootstrap';
-import './About.css'
-import { Link } from "react-router-dom";
+import React from 'react';
+import Image from 'react-bootstrap/Image';
+import 'bootstrap/dist/css/bootstrap.css';
+import './About.css';
 const flower =  require("../images/nav-lotus-flower.png");
-
+const ben = require("../images/ben_cropped.jpg");
+const rahad = require("../images/rahad_cropped.jpg");
 
 class About extends React.Component{
     render(){
         return(
-
+            
             <div id="aboutPage">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <div id="aboutLotus">
                     <div id="headerContainer">
                         <div id="aboutSpanContainer">
@@ -78,10 +80,13 @@ class About extends React.Component{
                     <div class="bioContainer">
                         <div class="bioLeftContainer">
                             <div class="bioPictureContainer">
-                                <Image class="profilePicture" src={flower} roundedCircle></Image>
+                                <Image id="bioPicture" src={ben} roundedCircle/>
                             </div>
-                            <span class="bioName">Ben Salazar</span> <br></br>
-                            <span class="bioCompanyPosition">Co-Founder/CEO</span>
+                            <div class="bioNameContainer">
+                                <span class="bioName">Ben Salazar</span> <br></br>
+                                <span class="bioCompanyPosition">Co-Founder/CEO</span>
+                            </div>
+                            
                         </div>
                         <div class="bioTextContainer">
                             <p class="sectionText">
@@ -90,6 +95,28 @@ class About extends React.Component{
 
                             <p class="sectionText">
                                 He started Lotus with high school football teammate and long time friend Rahad in order to share his love of music with all of his friends. His music interests include everything from house music and rap to rock and roll. In his free time, Ben enjoys playing the guitar, reading, and playing football with his friends.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="bioContainer">
+                        <div class="bioLeftContainer">
+                            <div class="bioPictureContainer">
+                                <Image id="bioPicture" src={rahad} roundedCircle/>
+                            </div>
+                            <div class="bioNameContainer">
+                                <span class="bioName">Rahad Khan</span> <br></br>
+                                <span class="bioCompanyPosition">Co-Founder/COO</span>
+                            </div>
+                            
+                        </div>
+                        <div class="bioTextContainer">
+                            <p class="sectionText">
+                                Rahad is a cofounder of Lotus who has a passion for technology and media. At an early age, he took a great interest in small gadgets, breaking them apart and fixing them to figure out how they work. He is a tech wiz amongst family and friends, often helping to fix their computers; he even started his own computer repair business at the age of 10.
+                            </p> 
+
+                            <p class="sectionText">
+                                In the following years, Rahad would dream of starting a business of his own. He started this journey earlier than expected as a senior in high school when he joined his long time friend Ben to start Lotus.
                             </p>
 
                         </div>
