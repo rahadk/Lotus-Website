@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'react-bootstrap/Image';
 import 'bootstrap/dist/css/bootstrap.css';
 import './About.css';
+import Footer from '../Footer/Footer';
 const flower =  require("../images/nav-lotus-flower.png");
 const ben = require("../images/ben_cropped.jpg");
 const rahad = require("../images/rahad_cropped.jpg");
@@ -122,7 +123,7 @@ class About extends React.Component{
                         </div>
                     </div>
                 </div>
-
+                <Footer></Footer>
                 
             </div>
         )
