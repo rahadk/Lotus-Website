@@ -3,7 +3,7 @@ import './App.css';
 import 'tachyons'
 import Home from './Home/Home';
 import navimg from './images/navbar-lotus-logo.png';
-import navflower from './images/nav-lotus-flower.png';
+import navsun from './images/navbar-lotus-sun.png';
 import Contact from './Contact/Contact';
 import About from './About/About';
 import styled from "styled-components";
@@ -18,17 +18,15 @@ function App({location}) {
 <Wrapper>
 
 
-    {/* Navigation Menu */}
-    <header className="navigation-header">
+	<header className="navigation-header">
        <ul className="navigation-items-container">
-       <img className="nav-flower" src={navflower}></img>
-       <Link to="/">  <img className="nav-logo" src={navimg}></img></Link>
-       <Link to="/about"> <li className="nav-item grow"><a href="#Home"> About Us </a></li></Link>
-       <Link to="/contact"> <li className="nav-item grow"><a href="#About"> Contact Us </a></li></Link>
+       <img id="nav-flower" src={navsun}></img>
+       <Link to="/" id="logoLink">  <img id="nav-logo" src={navimg}></img></Link>
+       <Link to="/about"> <li className="nav-item navBarLink"><a href="#Home"> About Us </a></li></Link>
+       <Link to="/contact" id="contactLink"> <li className="nav-item navBarLink"><a href="#About"> Contact Us </a></li></Link>
 
         </ul>
-      </header>
-
+      </header> 
 
       <TransitionGroup className="transition-group">
         <CSSTransition

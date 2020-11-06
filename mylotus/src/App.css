@@ -1,4 +1,4 @@
-.App {
+.App{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,14 +8,12 @@
   height: 100vh;
 }
 
-a
-{
+a{
   text-decoration: none;
   color: white;
 }
 
-
-html {
+html{
   overflow: scroll;
   overflow-x: hidden;
   font-family: Arial;
@@ -25,49 +23,57 @@ html {
   background-attachment: fixed;
   color: white;
 }
-::-webkit-scrollbar {
+
+::-webkit-scrollbar{
   width: 0px;  /* Remove scrollbar space */
 }
 
-
-
-
 /* Navigation styling  */
 .navigation-header{
-  width:100%;
-  animation: fadeIn; 
-  animation-duration: 2s;
-  text-transform: uppercase;
-  background: rgb(47,95,181);
-background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
-}
-.nav-flower
-{
-  width: 5vw;
-  position: absolute;
-  left: 2vw;
-}
-.nav-logo
-{
-  width: 20vw;
-  position: absolute;
-  left: 40vw;
-  top: -12vh;
+	width:100%;
+  	animation: fadeIn; 
+  	animation-duration: 2s;
+  	text-transform: uppercase;
+  	background: rgb(2,218,253);
+	background: radial-gradient(circle, rgba(2,218,253,1) 25%, rgba(26,146,207,1) 57%, rgba(5,135,244,1) 83%);
 }
 
-header ul {
+#nav-flower{
+  width: 80px;
+  position: absolute;
+  left: 0vw;
+  margin-top: 5px;
+}
+
+#nav-logo{
+  width: 15vw; 
+}
+
+#logoLink{
+	position: absolute;
+	right: 40vw;
+}
+
+.navBarLink{
+	font-family: Arial;	
+}
+
+#contactLink{
+	padding-right: 2%;
+}
+
+header ul{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  max-width: 1200px;
+  align-items: center; 
   margin: 0 auto;
   margin-left: 16vw;
-  height: 12vh;
+  height: 8vh;
   font-family:'AvenirLTW01-45BookObliq';
   padding: 0;
 }
 
-header ul li {
+header ul li{
   list-style: none;
   position: relative;
   padding: 10px 10px;
@@ -79,52 +85,25 @@ header ul li:last-child{
   border-right: none;
 }
 
-header ul li a {
-  text-decoration: none;
-  padding: 0px 20px;
+header ul li a{
+  text-decoration: none; 
   color: #fff;
 }
 
-header ul li:hover  {
-  background: rgba(47,95,181,0.5);
-}
-
 @media (max-width: 768px){
-  .navigation-header{
-    width:100%;
-    background: rgb(47,95,181);
-    background: linear-gradient(0deg, rgba(47,95,181,1) 0%, rgba(4,209,237,1) 100%);
-    text-align: center;
-  }
-  header ul {
-    display:block;
-    margin-left: -3px;
-  }
+	.navBarLink{
+		font-size: 5pt;
+	}
 
-  header ul li {
-    display:block;
-  }
+	#nav-logo{
+		width: 30vw;
+	}
 
-  header ul li:hover  {
-    background: rgba(47,95,181,0.5);
-  }
+	#logoLink{
+		right: 32vw;
+	}
 
-  .nav-flower
-{
- display:none;
+	header ul li{
+		padding: 5px 5px;
+	}
 }
-.nav-logo
-{
-display:none;
-}
-
-}
-
-
-
-
-
-
-
-
-
