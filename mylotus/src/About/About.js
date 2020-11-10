@@ -12,7 +12,6 @@ class About extends React.Component{
         return(
             
             <div id="aboutPage">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 <div id="aboutLotus">
                     <div id="headerContainer">
                         <div id="aboutSpanContainer">
