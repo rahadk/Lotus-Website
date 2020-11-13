@@ -99,7 +99,7 @@ class About extends React.Component{
 
                         </div>
                     </div>
-                    <div class="bioContainer">
+                    <div class="bioContainer" style={{marginTop: "-5%"}}>
                         <div class="bioLeftContainer">
                             <div class="bioPictureContainer">
                                 <Image id="bioPicture" src={rahad} roundedCircle/>
