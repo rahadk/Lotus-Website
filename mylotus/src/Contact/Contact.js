@@ -9,7 +9,7 @@ class Contact extends React.Component<>{
 			<div>
             	<div id="contact">
             	    <h1 id="contactUsHeader">Contact Us</h1>
-            	    <Form name="contact"  data-netlify="true" method="POST">
+            	    <Form name="contact"  action="https://formspree.io/f/mayldwkg" method="POST">
             	        <input type="hidden" name="form-name" value="contact" />
 
             	        <Form.Group>
@@ -24,7 +24,7 @@ class Contact extends React.Component<>{
 
             	        <Form.Group>
             	            <Form.Label>Subject</Form.Label>
-            	            <Form.Control as="input" type="text" name="email" required ></Form.Control>
+            	            <Form.Control as="input" type="text" name="subject" required ></Form.Control>
             	        </Form.Group>
 
             	        <Form.Group>
