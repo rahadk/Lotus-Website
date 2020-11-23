@@ -9,7 +9,7 @@ class Contact extends React.Component<>{
 			<div>
             	<div id="contact">
             	    <h1 id="contactUsHeader">Contact Us</h1>
-            	    <Form name="contact"  action="https://formspree.io/f/mayldwkg" method="POST">
+            	    <Form name="contact"  action="https://formspree.io/f/xwkwnejr" method="POST">
             	        <input type="hidden" name="form-name" value="contact" />
 
             	        <Form.Group>
