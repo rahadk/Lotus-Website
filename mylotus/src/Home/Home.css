@@ -8,7 +8,7 @@
 #headingLogo{
     float: left;
     background: linear-gradient(90deg, rgb(2, 218, 253) 10%, rgb(26, 146, 207) 77%, rgb(5, 135, 244) 93%);
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 #headingLogo img{
