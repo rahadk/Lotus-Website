@@ -1,3 +1,7 @@
+#home{
+    height: 100%;
+}
+
 #heading{
     height: 200px;
     width: 100%;
@@ -43,7 +47,7 @@
 #textAndLink p {
     font-family: Arial;
     font-size: 18pt;
-    color: white
+    color: white;
 }
 
 #downloadBox{
@@ -52,4 +56,22 @@
     height: 100px;
     width: 300px;
     margin-left: 9%;
+}
+
+
+
+
+#crossPlatform{
+    padding-left: 40%;
+    font-family: Arial;
+    color: white;
+}
+
+#crossPlatformHeading{
+    font-size: 30pt;
+}
+
+#crossPlatformText{
+    padding-left: 2%;
+    font-size: 12pt;
 }

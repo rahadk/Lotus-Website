@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'
-import { Link } from "react-router-dom";
 import flower from '../images/nav-lotus-flower.png';
+import Footer from "../Footer/Footer";
 
 
 function Home() {
@@ -23,6 +23,13 @@ function Home() {
                 <p>Music isn't just what we listen to, it’s who we are...</p>
                 <div id="downloadBox"></div>
             </div>
+            <div id="crossPlatform">
+                <b><i><p id="crossPlatformHeading">Cross-Platform Streaming</p></i></b>
+                <p id="crossPlatformText">
+                    Sync your streaming service and listen in one place with Lotus.
+                </p>
+            </div>
+            <Footer></Footer>
         </div>
     );
 }
