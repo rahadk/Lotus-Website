@@ -15,6 +15,7 @@
     margin: auto;
     text-align: center;
     font-family: Arial;
+    color: white;
 }
 
 #privacyPolicySpan{
@@ -29,4 +30,5 @@
 
 #mainFooter ul a{
     text-decoration-line: underline;
+    color: white
 }

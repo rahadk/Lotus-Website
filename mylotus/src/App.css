@@ -86,8 +86,13 @@ header ul li:last-child{
 }
 
 header ul li a{
-  text-decoration: none; 
+  text-decoration: none;
   color: #fff;
+}
+
+header ul a:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
 @media (max-width: 768px){
