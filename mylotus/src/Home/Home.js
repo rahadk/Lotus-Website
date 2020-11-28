@@ -14,7 +14,7 @@ function Home() {
         <div id="home">
             <div id="heading">
                 <div id="headingLogo">
-                    <img src={flower}/>
+                    <img src={flower} alt="Lotus flower"/>
                 </div>
                 <div id="headingText">
                     <b><i><p id="experience">EXPERIENCE<br/> EVERYTHING</p></i></b>
@@ -28,7 +28,7 @@ function Home() {
                 <p>Music isn't just what we listen to, it’s who we are...</p>
                 <div id="downloadBox">
                     <div id="appleLogo">
-                        <img src={apple}/>
+                        <img src={apple} alt="Apple logo"/>
                     </div>
                     <div id="downloadText">
                         <p>Download in the</p>
@@ -44,12 +44,12 @@ function Home() {
                     </p>
                 </div>
                 <div id="shareAndDiscoverPhone">
-                    <img src={shareDiscoverPhone}/>
+                    <img src={shareDiscoverPhone} alt="Screenshot of Lotus"/>
                 </div>
             </div>
             <div id="showOff">
                 <div id="showOffPhone">
-                    <img src={showOffPhone}/>
+                    <img src={showOffPhone} alt="Screenshot of Lotus"/>
                 </div>
                 <div id="showOffText">
                     <b><i><p id="showOffHeading">Show Off Your Interests</p></i></b>
@@ -64,10 +64,10 @@ function Home() {
                     Sync your streaming service and listen in one place with Lotus.
                 </p>
                 <div id="crossPlatformGraphic">
-                    <div><img id="crossPlatformFlower" src={flower}/></div>
+                    <div><img id="crossPlatformFlower" src={flower} alt="Lotus flower"/></div>
                     <div id="leftArrow">&#10231;</div> <div id="rightArrow">&#10231;</div>
-                    <div id="spotifyContainer"><img id="spotifyLogo" src={spotify}/></div>
-                    <div id="appleMusicContainer"><img id="appleMusicLogo" src={appleMusic}/></div>
+                    <div id="spotifyContainer"><img id="spotifyLogo" src={spotify} alt="Spotify logo"/></div>
+                    <div id="appleMusicContainer"><img id="appleMusicLogo" src={appleMusic} alt="Apple music logo"/></div>
                 </div>
             </div>
             <Footer></Footer>
