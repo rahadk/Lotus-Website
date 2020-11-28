@@ -1,11 +1,12 @@
 #home{
     height: 100%;
+    width: 100vw;
 }
 
 #heading{
     height: 200px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 5%;
     padding-left: 30%;
 }
 
@@ -21,7 +22,9 @@
 }
 
 #headingText{
-    margin-left: 34%
+    float: left;
+    margin-left: 10%;
+    width: 40%;
 }
 
 #experience{
@@ -35,7 +38,6 @@
     font-family: Arial;
     color: white;
     font-size: 10pt;
-    width: 50%;
 }
 
 #textAndLink{
@@ -55,8 +57,8 @@
 #downloadBox{
     background: linear-gradient(90deg, rgb(2, 218, 253) 10%, rgb(26, 146, 207) 77%, rgb(5, 135, 244) 93%);
     border-radius: 15px;
-    height: 100px;
-    width: 300px;
+    height: 50%;
+    width: 29%;
     margin-left: 9%;
     cursor: pointer;
 }
@@ -77,7 +79,7 @@
 }
 
 #appStoreText{
-    font-size: 32pt!important;
+    font-size: 240%!important;
 }
 
 
@@ -184,4 +186,227 @@
 
 #appleMusicLogo{
     height: 100px;
+}
+
+
+
+@media (max-width: 768px){
+    #heading{
+        padding-left: 20%;
+        margin-top: 10%;
+    }
+
+    #headingLogo img{
+        height: 200px;
+        width: 200px;
+    }
+
+    #headingLogo{
+        margin-top: 20px;
+    }
+
+    #experience{
+        font-size: 25pt;
+    }
+
+    #toLive{
+        font-size: 8pt;
+    }
+
+
+
+    #textAndLink{
+        margin-top: 20%;
+        padding-left: 26%;
+    }
+
+    #textAndLink p {
+        font-size: 15pt;
+    }
+
+    #downloadBox{
+        margin-left: 10%;
+        width: 55%;
+    }
+
+
+
+    #shareAndDiscover {
+        padding-left: 12%;
+        margin-bottom: 14%;
+    }
+
+
+
+    #showOff{
+        padding-left: 10%;
+    }
+
+
+
+    #crossPlatform{
+        margin-top: 100%;
+        padding-left: 18%;
+        margin-bottom: 40%;
+    }
+
+    #crossPlatformHeading{
+        font-size: 28pt;
+    }
+
+    #crossPlatformText{
+        font-size: 12pt;
+    }
+
+    #crossPlatformFlower{
+        margin-left: 30%;
+        height: 100px;
+        margin-bottom: -2%;
+    }
+
+    #leftArrow{
+        font-size: 60pt;
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+
+    #rightArrow{
+        font-size: 60pt;
+    }
+
+    #spotifyContainer{
+        margin-right: 50%;
+    }
+
+    #spotifyLogo{
+        height: 75px;
+    }
+
+    #appleMusicLogo{
+        height: 75px;
+    }
+}
+
+@media (max-width: 414px){
+    #heading{
+        padding-left: 6%;
+        margin-top: 10%;
+    }
+
+    #headingLogo{
+        margin-top: 20px;
+    }
+
+    #headingLogo img{
+        height: 150px;
+        width: 150px;
+    }
+
+    #experience{
+        font-size: 18pt;
+    }
+
+    #toLive{
+        font-size: 8pt;
+    }
+
+
+
+    #textAndLink{
+        margin-top: 20%;
+        padding-left: 16%;
+    }
+
+    #textAndLink p {
+        font-size: 9pt;
+    }
+
+    #downloadBox{
+        margin-left: -5%;
+        width: 95%;
+    }
+
+    #downloadText p{
+        font-size: 20pt;
+    }
+
+    #shareAndDiscover {
+        padding-left: 14%;
+        margin-bottom: 14%;
+    }
+
+    #shareAndDiscoverHeading{
+        font-size: 18pt;
+    }
+
+    #shareAndDiscoverText{
+        margin-top: 6%;
+        margin-right: 12%;
+    }
+
+    #shareAndDiscoverPara{
+        font-size: 10pt;
+    }
+
+    #shareAndDiscoverPhone img{
+        height: 300px;
+    }
+
+    #showOff{
+        padding-left: 10%;
+    }
+
+    #showOffPhone img{
+        height: 300px;
+    }
+
+    #showOffHeading{
+        font-size: 18pt;
+    }
+
+    #showOffPara{
+        font-size: 10pt;
+    }
+
+    #crossPlatform{
+        margin-top: 110%;
+        padding-left: 12%;
+        margin-bottom: 55%;
+    }
+
+    #crossPlatformHeading{
+        font-size: 18pt;
+    }
+
+    #crossPlatformText{
+        font-size: 8pt;
+    }
+
+    #crossPlatformFlower{
+        margin-left: 30%;
+        height: 100px;
+        margin-bottom: -10%;
+    }
+
+    #leftArrow{
+        font-size: 50pt;
+        margin-left: 10%;
+        margin-right: 25%;
+    }
+
+    #rightArrow{
+        font-size: 50pt;
+    }
+
+    #spotifyContainer{
+        margin-right: 45%;
+    }
+
+    #spotifyLogo{
+        height: 75px;
+    }
+
+    #appleMusicLogo{
+        height: 75px;
+    }
 }

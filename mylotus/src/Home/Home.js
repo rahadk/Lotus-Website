@@ -39,7 +39,7 @@ function Home() {
             <div id="shareAndDiscover">
                 <div id="shareAndDiscoverText">
                     <b><i><p id="shareAndDiscoverHeading">Share and Discover Music</p></i></b>
-                    <p>
+                    <p id="shareAndDiscoverPara">
                         Share your favorite music with your favorite people and listen to songs shared by them, all with the tap of a button.
                     </p>
                 </div>
@@ -53,7 +53,7 @@ function Home() {
                 </div>
                 <div id="showOffText">
                     <b><i><p id="showOffHeading">Show Off Your Interests</p></i></b>
-                    <p>
+                    <p id="showOffPara">
                         Show all of your friends your favorite songs and  artists all in one place.
                     </p>
                 </div>
