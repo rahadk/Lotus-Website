@@ -31,6 +31,14 @@ function Home() {
                     </p>
                 </div>
             </div>
+            <div id="showOff">
+                <div id="showOffText">
+                    <b><i><p id="showOffHeading">Show Off Your Interests</p></i></b>
+                    <p>
+                        Show all of your friends your favorite songs and  artists all in one place.
+                    </p>
+                </div>
+            </div>
             <div id="crossPlatform">
                 <b><i><p id="crossPlatformHeading">Cross-Platform Streaming</p></i></b>
                 <p id="crossPlatformText">

@@ -75,6 +75,21 @@
 }
 
 
+#showOff{
+    padding-left: 24%;
+    font-family: Arial;
+    color: white;
+}
+
+#showOffHeading{
+    font-size: 30pt;
+}
+
+#showOffText{
+    width: 40%;
+}
+
+
 
 #crossPlatform{
     padding-left: 40%;
