@@ -83,10 +83,19 @@
 }
 
 
+
 #showOff{
     padding-left: 24%;
     font-family: Arial;
     color: white;
+}
+
+#showOffPhone{
+    float: left;
+}
+
+#showOffPhone img{
+    height: 530px;
 }
 
 #showOffHeading{
@@ -95,11 +104,15 @@
 
 #showOffText{
     width: 40%;
+    margin-top: 15%;
+    margin-left: 8%;
+    float: left;
 }
 
 
 
 #crossPlatform{
+    margin-top: 36%;
     padding-left: 40%;
     font-family: Arial;
     color: white;

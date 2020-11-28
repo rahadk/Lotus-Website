@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css'
 import flower from '../images/nav-lotus-flower.png';
 import shareDiscoverPhone from '../images/share-discover-phone-highres.png';
+import showOffPhone from '../images/show-off-phone-highres.png';
 import Footer from "../Footer/Footer";
 
 
@@ -36,6 +37,9 @@ function Home() {
                 </div>
             </div>
             <div id="showOff">
+                <div id="showOffPhone">
+                    <img src={showOffPhone}/>
+                </div>
                 <div id="showOffText">
                     <b><i><p id="showOffHeading">Show Off Your Interests</p></i></b>
                     <p>
