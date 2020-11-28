@@ -3,6 +3,7 @@ import './Home.css'
 import flower from '../images/nav-lotus-flower.png';
 import shareDiscoverPhone from '../images/share-discover-phone-highres.png';
 import showOffPhone from '../images/show-off-phone-highres.png';
+import apple from '../images/apple.png';
 import Footer from "../Footer/Footer";
 
 
@@ -23,7 +24,15 @@ function Home() {
             </div>
             <div id="textAndLink">
                 <p>Music isn't just what we listen to, it’s who we are...</p>
-                <div id="downloadBox"></div>
+                <div id="downloadBox">
+                    <div id="appleLogo">
+                        <img src={apple}/>
+                    </div>
+                    <div id="downloadText">
+                        <p>Download in the</p>
+                        <p id="appStoreText">App Store</p>
+                    </div>
+                </div>
             </div>
             <div id="shareAndDiscover">
                 <div id="shareAndDiscoverText">

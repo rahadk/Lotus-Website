@@ -57,6 +57,26 @@
     height: 100px;
     width: 300px;
     margin-left: 9%;
+    cursor: pointer;
+}
+
+#downloadText p{
+    margin-bottom: 0!important;
+    font-size: 18pt;
+}
+
+#appleLogo{
+    float: left;
+    margin-right: 5%;
+}
+
+#appleLogo img{
+    height: 90px;
+    padding-top: 5px;
+}
+
+#appStoreText{
+    font-size: 32pt!important;
 }
 
 
