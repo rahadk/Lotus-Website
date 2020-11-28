@@ -4,6 +4,8 @@ import flower from '../images/nav-lotus-flower.png';
 import shareDiscoverPhone from '../images/share-discover-phone-highres.png';
 import showOffPhone from '../images/show-off-phone-highres.png';
 import apple from '../images/apple.png';
+import spotify from '../images/spotify.png';
+import appleMusic from '../images/apple-music.png';
 import Footer from "../Footer/Footer";
 
 
@@ -61,6 +63,12 @@ function Home() {
                 <p id="crossPlatformText">
                     Sync your streaming service and listen in one place with Lotus.
                 </p>
+                <div id="crossPlatformGraphic">
+                    <div><img id="crossPlatformFlower" src={flower}/></div>
+                    <div id="leftArrow">&#10231;</div> <div id="rightArrow">&#10231;</div>
+                    <div id="spotifyContainer"><img id="spotifyLogo" src={spotify}/></div>
+                    <div id="appleMusicContainer"><img id="appleMusicLogo" src={appleMusic}/></div>
+                </div>
             </div>
             <Footer></Footer>
         </div>

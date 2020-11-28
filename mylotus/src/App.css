@@ -31,8 +31,8 @@ html{
 /* Navigation styling  */
 .navigation-header{
 	width:100%;
-  	animation: fadeIn; 
-  	animation-duration: 2s;
+  	/*animation: fadeIn; */
+  	/*animation-duration: 2s;*/
   	text-transform: uppercase;
   	background: rgb(2,218,253);
 	background: radial-gradient(circle, rgba(2,218,253,1) 25%, rgba(26,146,207,1) 57%, rgba(5,135,244,1) 83%);
