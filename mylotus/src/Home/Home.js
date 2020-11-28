@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'
 import flower from '../images/nav-lotus-flower.png';
+import shareDiscoverPhone from '../images/share-discover-phone.png';
 import Footer from "../Footer/Footer";
 
 
