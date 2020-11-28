@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'
 import flower from '../images/nav-lotus-flower.png';
-import shareDiscoverPhone from '../images/share-discover-phone.png';
+import shareDiscoverPhone from '../images/share-discover-phone-highres.png';
 import Footer from "../Footer/Footer";
 
 
@@ -31,7 +31,7 @@ function Home() {
                         Share your favorite music with your favorite people and listen to songs shared by them, all with the tap of a button.
                     </p>
                 </div>
-                <div id="shareAndDisocverPhone">
+                <div id="shareAndDiscoverPhone">
                     <img src={shareDiscoverPhone}/>
                 </div>
             </div>
