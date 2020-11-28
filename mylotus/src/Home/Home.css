@@ -60,6 +60,21 @@
 
 
 
+#shareAndDiscover{
+    padding-left: 24%;
+    font-family: Arial;
+    color: white;
+}
+
+#shareAndDiscoverHeading{
+    font-size: 30pt;
+}
+
+#shareAndDiscoverText{
+    width: 40%;
+}
+
+
 
 #crossPlatform{
     padding-left: 40%;

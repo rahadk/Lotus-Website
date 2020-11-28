@@ -23,6 +23,14 @@ function Home() {
                 <p>Music isn't just what we listen to, it’s who we are...</p>
                 <div id="downloadBox"></div>
             </div>
+            <div id="shareAndDiscover">
+                <div id="shareAndDiscoverText">
+                    <b><i><p id="shareAndDiscoverHeading">Share and Discover Music</p></i></b>
+                    <p>
+                        Share your favorite music with your favorite people and listen to songs shared by them, all with the tap of a button.
+                    </p>
+                </div>
+            </div>
             <div id="crossPlatform">
                 <b><i><p id="crossPlatformHeading">Cross-Platform Streaming</p></i></b>
                 <p id="crossPlatformText">
