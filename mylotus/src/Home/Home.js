@@ -31,6 +31,9 @@ function Home() {
                         Share your favorite music with your favorite people and listen to songs shared by them, all with the tap of a button.
                     </p>
                 </div>
+                <div id="shareAndDisocverPhone">
+                    <img src={shareDiscoverPhone}/>
+                </div>
             </div>
             <div id="showOff">
                 <div id="showOffText">
