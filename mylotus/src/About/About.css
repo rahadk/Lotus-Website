@@ -1,0 +1,174 @@
+
+
+#aboutPage{
+    font-family: Arial;
+    color: white;
+    width: 100vw;
+    height: 85vh;
+    /*padding-left: 32%;*/
+    display: block;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+#headerContainer{
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    width: 100%;
+}
+
+#aboutFlowerContainer{
+    display: flex;
+    align-items: left;
+}
+
+#aboutSpan{
+    font-size: 60px;
+    font-weight: bold;
+    float: right;
+    padding-top: 5vh;
+    padding-right: 2vw;
+}
+
+#aboutUsFlower{
+    padding-left: 0%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.aboutHeader{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.aboutSection{
+    margin-top: 10vh;
+}
+
+.sectionText{
+    font-family: Avenir;
+    font-size: 21px;
+}
+
+.textContainer{
+    width: 66vw;
+    margin-left: 16.5vw;
+    margin-top: 5vh;
+}
+
+#theNameTextContainer{
+    text-align: left;
+}
+
+#theStoryTextContainer{
+    text-align: left;
+}
+
+.bioContainer{
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    /* margin-bottom: -5%; */
+    display: grid;
+    grid-template-columns: 33vw 33vw;
+    grid-template-areas: "sidebar content";
+    
+}
+
+.bioLeftContainer{
+    height: 50vh;
+    margin-left: 60%;
+    grid-area: sidebar;
+}
+
+.bioPictureContainer{
+    width: 250px;
+    height: 250px;
+}
+.bioNameContainer{
+    margin-top: 5%;
+}
+.bioName{
+    font-size: 35px;
+    font-weight: bold;
+    width: 13vw;
+}
+.bioTextContainer{
+    width: 50vw;
+    padding-left: 5vw;
+    grid-area: content;
+    
+}
+
+@media (max-width: 1420px) {
+    .bioContainer{
+        color: white;
+        width: auto;
+        height: auto;
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 15%;
+        display: block;
+    }
+    .bioLeftContainer{
+        width: 100%;
+        height: 50vh;
+        margin-left: 40%;
+        margin-bottom: 2%;
+    }
+
+    .bioNameContainer{
+        width: 50vw;
+        margin-left: -13.5%;
+        text-align: center;
+    }
+    .bioTextContainer{
+        width: 70vw;
+        margin-left: 15%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 414px) {
+    #headerContainer {
+        display: inline;
+    }
+    #aboutSpanContainer{
+        width: 100%;
+        margin-left: -5%;
+    }
+
+    #aboutFlowerContainer{
+        width: 100%;
+        margin-left: 30%;
+    }
+    .bioContainer{
+        color: white;
+        width: auto;
+        height: auto;
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 15%;
+        display: block;
+    }
+    .bioLeftContainer{
+        width: 100%;
+        height: 50vh;
+        margin-left: 21%;
+        margin-bottom: 2%;
+    }
+
+    .bioNameContainer{
+        width: 50vw;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .bioTextContainer{
+        width: 70vw;
+        margin-left: 14%;
+        text-align: center;
+    }
+
+}
