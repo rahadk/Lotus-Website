@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ba1a6bb.chunk.css",
+    "main.js": "/static/js/main.608fbebe.chunk.js",
+    "main.js.map": "/static/js/main.608fbebe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9c4a9a46.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9c4a9a46.js.map",
+    "static/css/2.cfdd86ab.chunk.css": "/static/css/2.cfdd86ab.chunk.css",
+    "static/js/2.9bc8b887.chunk.js": "/static/js/2.9bc8b887.chunk.js",
+    "static/js/2.9bc8b887.chunk.js.map": "/static/js/2.9bc8b887.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e3f9e6084bd60b44c774646eee26e0fb.js": "/precache-manifest.e3f9e6084bd60b44c774646eee26e0fb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.cfdd86ab.chunk.css.map": "/static/css/2.cfdd86ab.chunk.css.map",
+    "static/css/main.7ba1a6bb.chunk.css.map": "/static/css/main.7ba1a6bb.chunk.css.map",
+    "static/js/2.9bc8b887.chunk.js.LICENSE.txt": "/static/js/2.9bc8b887.chunk.js.LICENSE.txt",
+    "static/media/apple-music.png": "/static/media/apple-music.24451496.png",
+    "static/media/ben_cropped.jpg": "/static/media/ben_cropped.56ef95ef.jpg",
+    "static/media/nav-lotus-flower.png": "/static/media/nav-lotus-flower.c9fc3e9d.png",
+    "static/media/navbar-lotus-logo.png": "/static/media/navbar-lotus-logo.dea93227.png",
+    "static/media/navbar-lotus-sun.png": "/static/media/navbar-lotus-sun.82717d89.png",
+    "static/media/rahad_cropped.jpg": "/static/media/rahad_cropped.2fafacf5.jpg",
+    "static/media/share-discover-phone-highres.png": "/static/media/share-discover-phone-highres.2d83988d.png",
+    "static/media/show-off-phone-highres.png": "/static/media/show-off-phone-highres.f8255464.png",
+    "static/media/spotify.png": "/static/media/spotify.148b28a3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c4a9a46.js",
+    "static/css/2.cfdd86ab.chunk.css",
+    "static/js/2.9bc8b887.chunk.js",
+    "static/css/main.7ba1a6bb.chunk.css",
+    "static/js/main.608fbebe.chunk.js"
+  ]
+}
