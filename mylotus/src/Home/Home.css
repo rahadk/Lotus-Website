@@ -58,7 +58,8 @@
     background: linear-gradient(90deg, rgb(2, 218, 253) 10%, rgb(26, 146, 207) 77%, rgb(5, 135, 244) 93%);
     border-radius: 15px;
     height: 50%;
-    width: 29%;
+    /*width: 29%;*/
+    width: 288px;
     margin-left: 9%;
     cursor: pointer;
 }
@@ -189,7 +190,24 @@
     height: 100px;
 }
 
+@media(max-width: 1200px){
+    #heading{
+        padding-left: 15%;
+    }
 
+    #textAndLink{
+        margin-top: 18%;
+        padding-left: 28%;
+    }
+
+    #experience{
+        font-size: 40pt;
+    }
+
+    #downloadBox{
+        margin-left: 15%;
+    }
+}
 
 @media (max-width: 768px){
     #heading{
