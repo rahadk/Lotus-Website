@@ -1,201 +1,431 @@
-#home {
+#home{
+    height: 100%;
     width: 100vw;
-    height: 400vh;
 }
 
-
-.home-content-ctn
-{
-position: absolute;
- width: 40vw;
- left: 50vw;
- top: 15vh;
- text-align: center
+#heading{
+    height: 200px;
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 30%;
 }
 
-.lotus-lingo{
-    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
-    font-weight: lighter;
-    font-style: italic;
-    font-size: 7em;
-    line-height: 35px;
-    animation: fadeInRight;
-    animation-duration: 2s; 
+#headingLogo{
+    float: left;
+    background: linear-gradient(90deg, rgb(2, 218, 253) 10%, rgb(26, 146, 207) 77%, rgb(5, 135, 244) 93%);
+    border-radius: 30px;
 }
 
-.home-flower
-{
-    width: 40vw;
-    left: 5vw;
-    top: 0;
-   position: absolute;
-   animation: fadeInLeft;
-   animation-duration: 2s; 
+#headingLogo img{
+    height: 275px;
+    width: 275px;
 }
 
-.lotus-home-text{
-   
-font-family:'Avenir LT W01 35 Light';
-color: rgba(255,255,255,0.7);
-animation: fadeIn;
-animation-duration: 3s; 
+#headingText{
+    float: left;
+    margin-left: 10%;
+    width: 40%;
 }
 
-.home-btm-txt
-{
-   position: absolute;
-    top: 75vh;
-    left: 0vw;
-    width: 100vw;
+#experience{
+    font-family: Arial;
+    color: white;
+    font-size: 50pt;
+}
+
+#toLive{
     text-align: center;
-    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
-    font-size: 2.5em;
+    font-family: Arial;
+    color: white;
+    font-size: 10pt;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 374px){ 
-
-    .home-content-ctn
-{
-position: absolute;
- width: 40vw;
- left: calc(18% - 20px);
- top: 25vh;
- text-align: center
+#textAndLink{
+    height: 200px;
+    width: 100%;
+    margin-top: 12%;
+    margin-bottom: 2%;
+    padding-left: 39%;
 }
 
-.lotus-home-text
-{
-    left: 0vw;
-    padding: 10px;
-    text-align: center;
-   position: absolute;
+#textAndLink p {
+    font-family: Arial;
+    font-size: 18pt;
+    color: white;
 }
 
-.lotus-lingo{
-    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
-    font-weight: lighter;
-    font-style: italic;
-    font-size: 3em;
-    line-height: 35px;
+#downloadBox{
+    background: linear-gradient(90deg, rgb(2, 218, 253) 10%, rgb(26, 146, 207) 77%, rgb(5, 135, 244) 93%);
+    border-radius: 15px;
+    height: 50%;
+    /*width: 29%;*/
+    width: 288px;
+    margin-left: 9%;
+    cursor: pointer;
 }
 
-.home-flower
-{
-    width: 35vw;
-    left: 30vw;
-    top: 10vh;
-   position: absolute;
+#downloadText p{
+    margin-bottom: 0!important;
+    font-size: 18pt;
 }
 
-.home-btm-txt
-{
-   position: absolute;
-    top: 80vh;
-    left: 0vw;
-    width: 100vw;
-    text-align: center;
-    font-size: 1.5em;
+#appleLogo{
+    float: left;
+    margin-right: 5%;
+}
+
+#appleLogo img{
+    height: 90px;
+    padding-top: 5px;
+}
+
+#appStoreText{
+    font-size: 240%!important;
 }
 
 
 
-
- }
-
-@media only screen and (min-width: 375px) and (max-width: 767px){ 
-
-    .home-content-ctn
-{
-position: absolute;
- width: 40vw;
- left: calc(14% - 20px);
- text-align: center
+#shareAndDiscover{
+    padding-left: 24%;
+    font-family: Arial;
+    color: white;
 }
 
-.lotus-home-text
-{
-    left: 0vw;
-    padding: 10px;
-    text-align: center;
-   position: absolute;
+#shareAndDiscoverHeading{
+    font-size: 30pt;
 }
 
-.lotus-lingo{
-    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
-    font-weight: lighter;
-    font-style: italic;
-    font-size: 4em;
-    line-height: 35px;
+#shareAndDiscoverText{
+    width: 40%;
+    float: left;
+    margin-top: 15%;
+    margin-right: 8%;
 }
 
-.home-flower
-{
-    width: 35vw;
-    left: 30vw;
-    top: 10vh;
-   position: absolute;
+#shareAndDiscoverPhone img{
+    height: 530px;
 }
 
-.home-btm-txt
-{
-   position: absolute;
-    top: 75%;
-    left: 0vw;
-    width: 100vw;
-    text-align: center;
-    font-size: 1.8em;
-    padding: 10px;
-}
- }
-
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
 
 
-    .home-content-ctn
-{
-position: absolute;
- width: 40vw;
- left: calc(14% - 20px);
- text-align: center
+#showOff{
+    padding-left: 24%;
+    font-family: Arial;
+    color: white;
 }
 
-.lotus-home-text
-{
-    left: 0vw;
-    padding: 10px;
-    text-align: center;
-   position: absolute;
+#showOffPhone{
+    float: left;
 }
 
-.lotus-lingo{
-    font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
-    font-weight: lighter;
-    font-style: italic;
-    font-size: 4em;
-    line-height: 35px;
+#showOffPhone img{
+    height: 530px;
 }
 
-.home-flower
-{
-    width: 35vw;
-    left: 30vw;
-    top: 10vh;
-   position: absolute;
+#showOffHeading{
+    font-size: 30pt;
 }
 
-.home-btm-txt
-{
-   position: absolute;
-    top: 75%;
-    left: 0vw;
-    width: 100vw;
-    text-align: center;
-    font-size: 1.8em;
-    padding: 10px;
+#showOffText{
+    width: 36%;
+    margin-top: 15%;
+    margin-left: 8%;
+    float: left;
 }
- }
-
-@media only screen and (min-width: 992px){ 
 
 
- }
+
+#crossPlatform{
+    margin-top: 36%;
+    padding-left: 40%;
+    font-family: Arial;
+    color: white;
+    margin-bottom: 20%;
+    clear: both;
+}
+
+#crossPlatformHeading{
+    font-size: 30pt;
+}
+
+#crossPlatformText{
+    padding-left: 2%;
+    font-size: 12pt;
+}
+
+#crossPlatformFlower{
+    margin-left: 17%;
+    height: 150px;
+}
+
+#leftArrow{
+    float: left;
+    font-size: 70pt;
+    transform: rotate(-45deg);
+    margin-left: 7%;
+    margin-right: 8%;
+}
+
+#rightArrow{
+    float: left;
+    font-size: 70pt;
+    transform: rotate(45deg);
+}
+
+#spotifyContainer{
+    clear: both;
+    float: left;
+    margin-right: 28%;
+}
+
+#spotifyLogo{
+    height: 100px;
+}
+
+#appleMusicContainer{
+    float: left;
+}
+
+#appleMusicLogo{
+    height: 100px;
+}
+
+@media(max-width: 1200px){
+    #heading{
+        padding-left: 15%;
+    }
+
+    #textAndLink{
+        margin-top: 18%;
+        padding-left: 28%;
+    }
+
+    #experience{
+        font-size: 40pt;
+    }
+
+    #downloadBox{
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 768px){
+    #heading{
+        padding-left: 20%;
+        margin-top: 10%;
+    }
+
+    #headingLogo img{
+        height: 200px;
+        width: 200px;
+    }
+
+    #headingLogo{
+        margin-top: 20px;
+    }
+
+    #experience{
+        font-size: 25pt;
+    }
+
+    #toLive{
+        font-size: 8pt;
+    }
+
+
+
+    #textAndLink{
+        margin-top: 20%;
+        padding-left: 26%;
+    }
+
+    #textAndLink p {
+        font-size: 15pt;
+    }
+
+    #downloadBox{
+        margin-left: 10%;
+        width: 55%;
+    }
+
+
+
+    #shareAndDiscover {
+        padding-left: 12%;
+        margin-bottom: 14%;
+    }
+
+
+
+    #showOff{
+        padding-left: 10%;
+    }
+
+
+
+    #crossPlatform{
+        margin-top: 100%;
+        padding-left: 18%;
+        margin-bottom: 40%;
+    }
+
+    #crossPlatformHeading{
+        font-size: 28pt;
+    }
+
+    #crossPlatformText{
+        font-size: 12pt;
+    }
+
+    #crossPlatformFlower{
+        margin-left: 30%;
+        height: 100px;
+        margin-bottom: -2%;
+    }
+
+    #leftArrow{
+        font-size: 60pt;
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+
+    #rightArrow{
+        font-size: 60pt;
+    }
+
+    #spotifyContainer{
+        margin-right: 50%;
+    }
+
+    #spotifyLogo{
+        height: 75px;
+    }
+
+    #appleMusicLogo{
+        height: 75px;
+    }
+}
+
+@media (max-width: 414px){
+    #heading{
+        padding-left: 6%;
+        margin-top: 10%;
+    }
+
+    #headingLogo{
+        margin-top: 20px;
+    }
+
+    #headingLogo img{
+        height: 150px;
+        width: 150px;
+    }
+
+    #experience{
+        font-size: 18pt;
+    }
+
+    #toLive{
+        font-size: 8pt;
+    }
+
+
+
+    #textAndLink{
+        margin-top: 20%;
+        padding-left: 16%;
+    }
+
+    #textAndLink p {
+        font-size: 9pt;
+    }
+
+    #downloadBox{
+        margin-left: -5%;
+        width: 95%;
+    }
+
+    #downloadText p{
+        font-size: 20pt;
+    }
+
+    #shareAndDiscover {
+        padding-left: 14%;
+        margin-bottom: 14%;
+    }
+
+    #shareAndDiscoverHeading{
+        font-size: 18pt;
+    }
+
+    #shareAndDiscoverText{
+        margin-top: 6%;
+        margin-right: 12%;
+    }
+
+    #shareAndDiscoverPara{
+        font-size: 10pt;
+    }
+
+    #shareAndDiscoverPhone img{
+        height: 300px;
+    }
+
+    #showOff{
+        padding-left: 10%;
+    }
+
+    #showOffPhone img{
+        height: 300px;
+    }
+
+    #showOffHeading{
+        font-size: 18pt;
+    }
+
+    #showOffPara{
+        font-size: 10pt;
+    }
+
+    #crossPlatform{
+        margin-top: 110%;
+        padding-left: 12%;
+        margin-bottom: 55%;
+    }
+
+    #crossPlatformHeading{
+        font-size: 18pt;
+    }
+
+    #crossPlatformText{
+        font-size: 8pt;
+    }
+
+    #crossPlatformFlower{
+        margin-left: 30%;
+        height: 100px;
+        margin-bottom: -10%;
+    }
+
+    #leftArrow{
+        font-size: 50pt;
+        margin-left: 10%;
+        margin-right: 25%;
+    }
+
+    #rightArrow{
+        font-size: 50pt;
+    }
+
+    #spotifyContainer{
+        margin-right: 45%;
+    }
+
+    #spotifyLogo{
+        height: 75px;
+    }
+
+    #appleMusicLogo{
+        height: 75px;
+    }
+}
